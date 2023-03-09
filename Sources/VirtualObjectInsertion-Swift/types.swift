@@ -32,8 +32,6 @@ struct Material {
 
     let roughness = 0.2
     let metallic = 0.0
-
-    let scale = 0.2 // TODO: Check what this is
 }
 
 struct CropInfo {
@@ -46,4 +44,6 @@ struct CropInfo {
 struct SceneInfo {
     let fovX: Float = 63.4149
     let isGamma = false
+
+    let scale: Float = 0.2 // TODO: Check what this is
 }

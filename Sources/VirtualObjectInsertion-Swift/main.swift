@@ -134,3 +134,32 @@ let faces: [simd_uint3] = [
     simd_uint3(0, 1, 2),
     simd_uint3(0, 2, 3),
 ]
+
+// Object placing
+let xobj = cropInfo.xObj
+let yobj = cropInfo.yObj
+
+let vxobj = (((Float(width) + 1) / 2.0) - xobj) / ((Float(width) - 1) / 2.0) * atanFovX
+let vyobj = (((Float(height) + 1) / 2.0) - yobj) / ((Float(height) - 1) / 2.0) * atanFovY
+var vobj = simd_float3(vxobj, vyobj, 1.0)
+let d = refDotNormal / simd_dot(vobj, normal)
+assert(d > 0)
+vobj = vobj * d
+
+let dist: [Float] = [simd_length(vobj - ref), simd_length(vobj - points[1])]
+let scale = sceneInfo.scale * simd_min(dist[0], dist[1])
+
+if sceneInfo.isGamma {
+    print("Not implemented yet")
+}
+
+// Environment map
+var (envMap, envShape) = irResult.env
+
+for i in 0..<envMap.count {
+    if envMap[i] < 0 {
+        envMap[i] = 0
+    }
+}
+
+

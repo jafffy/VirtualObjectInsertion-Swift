@@ -17,6 +17,7 @@ func loadImageNpy(_ path: URL) -> ImageNpy {
     let npy = try! Npy(contentsOf: path)
     let elements: [UInt8] = npy.elements()
     let shape = npy.shape
+
     return (elements, shape)
 }
 
@@ -71,4 +72,39 @@ func loadCropInfoNpz(_ path: URL) -> CropInfo {
             yMask: npz["yMask"]!.elements(),
             xObj: npz["xObj"]!.elements()[0],
             yObj: npz["yObj"]!.elements()[0])
+}
+
+func saveArrayAsNpy(_ path: String, data: [Float], shape: [Int]) {
+    saveArrayAsNpy(URL(fileURLWithPath: path), data: data, shape: shape)
+}
+
+func saveArrayAsNpy(_ path: URL, data: [Float], shape: [Int]) {
+    let npy = Npy(shape: shape,
+            elements: data,
+            endian: .little,
+            isFortranOrder: false)
+    try! npy.save(to: path)
+}
+
+func saveArrayAsNpy(_ path: String, data: [Bool], shape: [Int]) {
+    saveArrayAsNpy(URL(fileURLWithPath: path), data: data, shape: shape)
+}
+
+func saveArrayAsNpy(_ path: URL, data: [Bool], shape: [Int]) {
+    let npy = Npy(shape: shape,
+            elements: data,
+            isFortranOrder: false)
+    try! npy.save(to: path)
+}
+
+func saveArrayAsNpy(_ path: String, data: [Int32], shape: [Int]) {
+    saveArrayAsNpy(URL(fileURLWithPath: path), data: data, shape: shape)
+}
+
+func saveArrayAsNpy(_ path: URL, data: [Int32], shape: [Int]) {
+    let npy = Npy(shape: shape,
+            elements: data,
+            endian: .little,
+            isFortranOrder: false)
+    try! npy.save(to: path)
 }

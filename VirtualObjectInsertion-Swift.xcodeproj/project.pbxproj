@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BA6881D75A77B91FB5D7D043 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA688F1A4A5345FCF40C98A5 /* main.swift */; };
-		BA6882494AC3E21491740DB7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */; };
+		BA6882494AC3E21491740DB7 /* NpyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6889DD3FB1F9BDAE99C2F9 /* NpyUtil.swift */; };
 		BA6887AFC50EDA55A194C9C7 /* InverseRenderingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68867DFA7EA77E05754C98 /* InverseRenderingResult.swift */; };
 		BA688A3D461CAA0449A6CCBB /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA688E34AFE7D8AC81FC632E /* types.swift */; };
+		BA688AACF6222CE40F90D9FF /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA688F381F3CDBA69719B81B /* MathUtil.swift */; };
 		FF17ED0229B97AFB00153761 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = FF17ED0129B97AFB00153761 /* Algorithms */; };
 		FF66327329B97D9000E85E9A /* SwiftNpy in Frameworks */ = {isa = PBXBuildFile; productRef = FF66327229B97D9000E85E9A /* SwiftNpy */; };
 /* End PBXBuildFile section */
@@ -30,9 +31,10 @@
 /* Begin PBXFileReference section */
 		BA68867DFA7EA77E05754C98 /* InverseRenderingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InverseRenderingResult.swift; sourceTree = "<group>"; };
 		BA68874348CA7926F8211558 /* VirtualObjectInsertion-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VirtualObjectInsertion-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BA6889DD3FB1F9BDAE99C2F9 /* NpyUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NpyUtil.swift; sourceTree = "<group>"; };
 		BA688E34AFE7D8AC81FC632E /* types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
 		BA688F1A4A5345FCF40C98A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BA688F381F3CDBA69719B81B /* MathUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				BA688F1A4A5345FCF40C98A5 /* main.swift */,
-				BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */,
+				BA6889DD3FB1F9BDAE99C2F9 /* NpyUtil.swift */,
 				BA68867DFA7EA77E05754C98 /* InverseRenderingResult.swift */,
 				BA688E34AFE7D8AC81FC632E /* types.swift */,
+				BA688F381F3CDBA69719B81B /* MathUtil.swift */,
 			);
 			path = "VirtualObjectInsertion-Swift";
 			sourceTree = "<group>";
@@ -134,9 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6881D75A77B91FB5D7D043 /* main.swift in Sources */,
-				BA6882494AC3E21491740DB7 /* Utils.swift in Sources */,
+				BA6882494AC3E21491740DB7 /* NpyUtil.swift in Sources */,
 				BA6887AFC50EDA55A194C9C7 /* InverseRenderingResult.swift in Sources */,
 				BA688A3D461CAA0449A6CCBB /* types.swift in Sources */,
+				BA688AACF6222CE40F90D9FF /* MathUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,25 +5,70 @@
 import Foundation
 import SwiftNpy
 
-func loadNpy(_ path: String) -> ([Float], [Int]) {
-    loadNpy(URL(fileURLWithPath: path))
+func loadImageNpy(_ path: String) -> ImageNpy {
+    loadImageNpy(URL(fileURLWithPath: path))
 }
 
-func loadEnv(_ path: String) -> ([Float], [Int]) {
+func loadEnv(_ path: String) -> EnvMapNpy {
     loadEnv(URL(fileURLWithPath: path))
 }
 
-func loadNpy(_ path: URL) -> ([Float], [Int]) {
+func loadImageNpy(_ path: URL) -> ImageNpy {
     let npy = try! Npy(contentsOf: path)
-    let elements: [Float] = npy.elements()
+    let elements: [UInt8] = npy.elements()
     let shape = npy.shape
     return (elements, shape)
 }
 
-func loadEnv(_ path: URL) -> ([Float], [Int]) {
+func loadEnv(_ path: URL) -> EnvMapNpy {
     let npz = try! Npz(contentsOf: path)
     let npy = npz["env"]!
     let elements: [Float] = npy.elements()
     let shape = npy.shape
     return (elements, shape)
+}
+
+func loadObjNpz(_ path: String) -> Mesh {
+    loadObjNpz(URL(fileURLWithPath: path))
+}
+
+func loadObjNpz(_ path: URL) -> Mesh {
+    let npz = try! Npz(contentsOf: path)
+
+    return Mesh(vertices: npz["vertices"]!.elements(),
+            verticesShape: npz["vertices"]!.shape,
+            faces: npz["faces"]!.elements(),
+            facesShape: npz["faces"]!.shape,
+            textureCoords: npz["texture_coords"]!.elements(),
+            textureCoordsShape: npz["texture_coords"]!.shape,
+            normals: npz["normals"]!.elements(),
+            normalsShape: npz["normals"]!.shape)
+}
+
+func loadTransformNpz(_ path: String) -> Transform {
+    loadTransformNpz(URL(fileURLWithPath: path))
+}
+
+func loadTransformNpz(_ path: URL) -> Transform {
+    let npz = try! Npz(contentsOf: path)
+
+    return Transform(
+            meshRotateAngle: npz["meshRotateAngle"]!.elements()[0],
+            meshRotateAxis: npz["meshRotateAxis"]!.elements(),
+            meshTranslate: npz["meshTranslate"]!.elements(),
+            meshScale: npz["meshScale"]!.elements())
+}
+
+func loadCropInfoNpz(_ path: String) -> CropInfo {
+    loadCropInfoNpz(URL(fileURLWithPath: path))
+}
+
+func loadCropInfoNpz(_ path: URL) -> CropInfo {
+    let npz = try! Npz(contentsOf: path)
+
+    return CropInfo(
+            xMask: npz["xMask"]!.elements(),
+            yMask: npz["yMask"]!.elements(),
+            xObj: npz["xObj"]!.elements()[0],
+            yObj: npz["yObj"]!.elements()[0])
 }

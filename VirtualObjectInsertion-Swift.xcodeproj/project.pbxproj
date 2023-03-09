@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6881D75A77B91FB5D7D043 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA688F1A4A5345FCF40C98A5 /* main.swift */; };
+		BA6882494AC3E21491740DB7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */; };
+		BA6887AFC50EDA55A194C9C7 /* InputSceneDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68867DFA7EA77E05754C98 /* InputSceneDescription.swift */; };
+		FF17ED0229B97AFB00153761 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = FF17ED0129B97AFB00153761 /* Algorithms */; };
+		FF66327329B97D9000E85E9A /* SwiftNpy in Frameworks */ = {isa = PBXBuildFile; productRef = FF66327229B97D9000E85E9A /* SwiftNpy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA688ECE5B3F82C4949026CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA68867DFA7EA77E05754C98 /* InputSceneDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputSceneDescription.swift; sourceTree = "<group>"; };
+		BA68874348CA7926F8211558 /* VirtualObjectInsertion-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VirtualObjectInsertion-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BA688F1A4A5345FCF40C98A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA688A651359F9182F47E9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF66327329B97D9000E85E9A /* SwiftNpy in Frameworks */,
+				FF17ED0229B97AFB00153761 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA68807F338EF6BB07DBFD26 /* VirtualObjectInsertion-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BA688F1A4A5345FCF40C98A5 /* main.swift */,
+				BA6889DD3FB1F9BDAE99C2F9 /* Utils.swift */,
+				BA68867DFA7EA77E05754C98 /* InputSceneDescription.swift */,
+			);
+			path = "VirtualObjectInsertion-Swift";
+			sourceTree = "<group>";
+		};
+		BA688B409150B1ACB9501AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA68874348CA7926F8211558 /* VirtualObjectInsertion-Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA688F295ADB8F6AFF6C689E = {
+			isa = PBXGroup;
+			children = (
+				BA688B409150B1ACB9501AE6 /* Products */,
+				BA68807F338EF6BB07DBFD26 /* VirtualObjectInsertion-Swift */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6887BD1E6126EE04F942CB /* VirtualObjectInsertion-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA688BF0054F2785575F0403 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-Swift" */;
+			buildPhases = (
+				BA6884DE28CA04AB525BAF6F /* Sources */,
+				BA688A651359F9182F47E9C4 /* Frameworks */,
+				BA688ECE5B3F82C4949026CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VirtualObjectInsertion-Swift";
+			packageProductDependencies = (
+				FF17ED0129B97AFB00153761 /* Algorithms */,
+				FF66327229B97D9000E85E9A /* SwiftNpy */,
+			);
+			productName = "VirtualObjectInsertion-Swift";
+			productReference = BA68874348CA7926F8211558 /* VirtualObjectInsertion-Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA688EFF4AB6C745433A0FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = BA68894EECF3286067AC7560 /* Build configuration list for PBXProject "VirtualObjectInsertion-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = BA688F295ADB8F6AFF6C689E;
+			packageReferences = (
+				FF17ED0029B97AFB00153761 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				FF66327129B97D9000E85E9A /* XCRemoteSwiftPackageReference "swift-npy" */,
+			);
+			productRefGroup = BA688B409150B1ACB9501AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6887BD1E6126EE04F942CB /* VirtualObjectInsertion-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6884DE28CA04AB525BAF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6881D75A77B91FB5D7D043 /* main.swift in Sources */,
+				BA6882494AC3E21491740DB7 /* Utils.swift in Sources */,
+				BA6887AFC50EDA55A194C9C7 /* InputSceneDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA688585C8B246B3A0451B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA688818A911E628D04F239A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA6888BA7E42922AEB99E8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA688BB07535F1757A4FAEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA68894EECF3286067AC7560 /* Build configuration list for PBXProject "VirtualObjectInsertion-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA688585C8B246B3A0451B1E /* Debug */,
+				BA688BB07535F1757A4FAEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA688BF0054F2785575F0403 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6888BA7E42922AEB99E8E3 /* Debug */,
+				BA688818A911E628D04F239A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF17ED0029B97AFB00153761 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FF66327129B97D9000E85E9A /* XCRemoteSwiftPackageReference "swift-npy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/qoncept/swift-npy";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF17ED0129B97AFB00153761 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF17ED0029B97AFB00153761 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		FF66327229B97D9000E85E9A /* SwiftNpy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF66327129B97D9000E85E9A /* XCRemoteSwiftPackageReference "swift-npy" */;
+			productName = SwiftNpy;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA688EFF4AB6C745433A0FF9 /* Project object */;
+}

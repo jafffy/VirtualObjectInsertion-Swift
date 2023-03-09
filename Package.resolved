@@ -3,7 +3,7 @@
     {
       "identity" : "swift-npy",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/qoncept/swift-npy",
+      "location" : "https://github.com/qoncept/swift-npy.git",
       "state" : {
         "branch" : "master",
         "revision" : "7dd42825c7756e01b98fac5decd13430efc3b355"

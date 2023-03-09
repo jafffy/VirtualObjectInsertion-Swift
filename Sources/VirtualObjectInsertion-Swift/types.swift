@@ -44,6 +44,6 @@ struct CropInfo {
 }
 
 struct SceneInfo {
-    let fovX = 63.4149
+    let fovX: Float = 63.4149
     let isGamma = false
 }

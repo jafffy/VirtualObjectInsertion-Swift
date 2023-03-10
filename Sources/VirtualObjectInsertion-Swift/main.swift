@@ -27,8 +27,6 @@ let shape = imShape
 let height = shape[0]
 let width = shape[1]
 
-print(shape)
-
 let (xgrid, ygrid) = meshgrid(height: height, width: width)
 var mask: [Int] = ones([height, width])
 
@@ -154,6 +152,7 @@ if sceneInfo.isGamma {
 }
 
 // Environment map
+// TODO: Check the result is same with HDR file result.
 var (envMap, envShape) = irResult.env
 
 for i in 0..<envMap.count {
@@ -161,5 +160,3 @@ for i in 0..<envMap.count {
         envMap[i] = 0
     }
 }
-
-

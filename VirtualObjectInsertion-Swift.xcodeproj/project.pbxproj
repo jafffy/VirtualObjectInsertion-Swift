@@ -1,3113 +1,1864 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_191";
-         projectDirPath = ".";
-         targets = (
-            "swift-npy::SwiftNpy",
-            "swift-npy::SwiftPMPackageDescription",
-            "swiftzip::SwiftZip",
-            "swiftzip::SwiftPMPackageDescription",
-            "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift",
-            "virtualobjectinsertion-swift::SwiftPMPackageDescription",
-            "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftPackageTests::ProductTarget",
-            "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests",
-            "swiftzip::zip"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "MathUtil.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_100" = {
-         isa = "PBXFileReference";
-         path = "zip_file_rename.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_101" = {
-         isa = "PBXFileReference";
-         path = "zip_file_replace.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_102" = {
-         isa = "PBXFileReference";
-         path = "zip_file_set_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_103" = {
-         isa = "PBXFileReference";
-         path = "zip_file_set_encryption.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_104" = {
-         isa = "PBXFileReference";
-         path = "zip_file_set_external_attributes.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_105" = {
-         isa = "PBXFileReference";
-         path = "zip_file_set_mtime.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_106" = {
-         isa = "PBXFileReference";
-         path = "zip_file_strerror.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_107" = {
-         isa = "PBXFileReference";
-         path = "zip_fopen.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_108" = {
-         isa = "PBXFileReference";
-         path = "zip_fopen_encrypted.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_109" = {
-         isa = "PBXFileReference";
-         path = "zip_fopen_index.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "NpyUtil.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_110" = {
-         isa = "PBXFileReference";
-         path = "zip_fopen_index_encrypted.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_111" = {
-         isa = "PBXFileReference";
-         path = "zip_fread.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_112" = {
-         isa = "PBXFileReference";
-         path = "zip_fseek.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_113" = {
-         isa = "PBXFileReference";
-         path = "zip_ftell.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_114" = {
-         isa = "PBXFileReference";
-         path = "zip_get_archive_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_115" = {
-         isa = "PBXFileReference";
-         path = "zip_get_archive_flag.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_116" = {
-         isa = "PBXFileReference";
-         path = "zip_get_encryption_implementation.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_117" = {
-         isa = "PBXFileReference";
-         path = "zip_get_file_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_118" = {
-         isa = "PBXFileReference";
-         path = "zip_get_name.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_119" = {
-         isa = "PBXFileReference";
-         path = "zip_get_num_entries.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_120" = {
-         isa = "PBXFileReference";
-         path = "zip_get_num_files.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_121" = {
-         isa = "PBXFileReference";
-         path = "zip_hash.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_122" = {
-         isa = "PBXFileReference";
-         path = "zip_io_util.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_123" = {
-         isa = "PBXFileReference";
-         path = "zip_libzip_version.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_124" = {
-         isa = "PBXFileReference";
-         path = "zip_memdup.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_125" = {
-         isa = "PBXFileReference";
-         path = "zip_mkstempm.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_126" = {
-         isa = "PBXFileReference";
-         path = "zip_name_locate.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_127" = {
-         isa = "PBXFileReference";
-         path = "zip_new.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_128" = {
-         isa = "PBXFileReference";
-         path = "zip_open.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_129" = {
-         isa = "PBXFileReference";
-         path = "zip_pkware.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "types.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_130" = {
-         isa = "PBXFileReference";
-         path = "zip_progress.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_131" = {
-         isa = "PBXFileReference";
-         path = "zip_random_unix.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_132" = {
-         isa = "PBXFileReference";
-         path = "zip_rename.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_133" = {
-         isa = "PBXFileReference";
-         path = "zip_replace.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_134" = {
-         isa = "PBXFileReference";
-         path = "zip_set_archive_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_135" = {
-         isa = "PBXFileReference";
-         path = "zip_set_archive_flag.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_136" = {
-         isa = "PBXFileReference";
-         path = "zip_set_default_password.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_137" = {
-         isa = "PBXFileReference";
-         path = "zip_set_file_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_138" = {
-         isa = "PBXFileReference";
-         path = "zip_set_file_compression.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_139" = {
-         isa = "PBXFileReference";
-         path = "zip_set_name.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_15"
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_140" = {
-         isa = "PBXFileReference";
-         path = "zip_source_accept_empty.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_141" = {
-         isa = "PBXFileReference";
-         path = "zip_source_begin_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_142" = {
-         isa = "PBXFileReference";
-         path = "zip_source_begin_write_cloning.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_143" = {
-         isa = "PBXFileReference";
-         path = "zip_source_buffer.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_144" = {
-         isa = "PBXFileReference";
-         path = "zip_source_call.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_145" = {
-         isa = "PBXFileReference";
-         path = "zip_source_close.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_146" = {
-         isa = "PBXFileReference";
-         path = "zip_source_commit_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_147" = {
-         isa = "PBXFileReference";
-         path = "zip_source_compress.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_148" = {
-         isa = "PBXFileReference";
-         path = "zip_source_crc.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_149" = {
-         isa = "PBXFileReference";
-         path = "zip_source_error.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_16"
-         );
-         name = "VirtualObjectInsertion-SwiftTests";
-         path = "Tests/VirtualObjectInsertion-SwiftTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_150" = {
-         isa = "PBXFileReference";
-         path = "zip_source_file_common.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_151" = {
-         isa = "PBXFileReference";
-         path = "zip_source_file_stdio.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_152" = {
-         isa = "PBXFileReference";
-         path = "zip_source_file_stdio_named.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_153" = {
-         isa = "PBXFileReference";
-         path = "zip_source_free.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_154" = {
-         isa = "PBXFileReference";
-         path = "zip_source_function.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_155" = {
-         isa = "PBXFileReference";
-         path = "zip_source_get_file_attributes.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_156" = {
-         isa = "PBXFileReference";
-         path = "zip_source_is_deleted.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_157" = {
-         isa = "PBXFileReference";
-         path = "zip_source_layered.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_158" = {
-         isa = "PBXFileReference";
-         path = "zip_source_open.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_159" = {
-         isa = "PBXFileReference";
-         path = "zip_source_pkware_decode.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "VirtualObjectInsertion_SwiftTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_160" = {
-         isa = "PBXFileReference";
-         path = "zip_source_pkware_encode.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_161" = {
-         isa = "PBXFileReference";
-         path = "zip_source_read.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_162" = {
-         isa = "PBXFileReference";
-         path = "zip_source_remove.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_163" = {
-         isa = "PBXFileReference";
-         path = "zip_source_rollback_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_164" = {
-         isa = "PBXFileReference";
-         path = "zip_source_seek.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_165" = {
-         isa = "PBXFileReference";
-         path = "zip_source_seek_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_166" = {
-         isa = "PBXFileReference";
-         path = "zip_source_stat.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_167" = {
-         isa = "PBXFileReference";
-         path = "zip_source_supports.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_168" = {
-         isa = "PBXFileReference";
-         path = "zip_source_tell.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_169" = {
-         isa = "PBXFileReference";
-         path = "zip_source_tell_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_18",
-            "OBJ_29"
-         );
-         name = "Dependencies";
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_170" = {
-         isa = "PBXFileReference";
-         path = "zip_source_window.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_171" = {
-         isa = "PBXFileReference";
-         path = "zip_source_winzip_aes_decode.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_172" = {
-         isa = "PBXFileReference";
-         path = "zip_source_winzip_aes_encode.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_173" = {
-         isa = "PBXFileReference";
-         path = "zip_source_write.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_174" = {
-         isa = "PBXFileReference";
-         path = "zip_source_zip.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_175" = {
-         isa = "PBXFileReference";
-         path = "zip_source_zip_new.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_176" = {
-         isa = "PBXFileReference";
-         path = "zip_stat.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_177" = {
-         isa = "PBXFileReference";
-         path = "zip_stat_index.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_178" = {
-         isa = "PBXFileReference";
-         path = "zip_stat_init.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_179" = {
-         isa = "PBXFileReference";
-         path = "zip_strerror.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_19",
-            "OBJ_28"
-         );
-         name = "SwiftNpy";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_180" = {
-         isa = "PBXFileReference";
-         path = "zip_string.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_181" = {
-         isa = "PBXFileReference";
-         path = "zip_unchange.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_182" = {
-         isa = "PBXFileReference";
-         path = "zip_unchange_all.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_183" = {
-         isa = "PBXFileReference";
-         path = "zip_unchange_archive.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_184" = {
-         isa = "PBXFileReference";
-         path = "zip_unchange_data.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_185" = {
-         isa = "PBXFileReference";
-         path = "zip_utf-8.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_186" = {
-         isa = "PBXFileReference";
-         path = "zip_winzip_aes.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_187" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_188",
-            "OBJ_189"
-         );
-         name = "include";
-         path = "include";
-         sourceTree = "<group>";
-      };
-      "OBJ_188" = {
-         isa = "PBXFileReference";
-         path = "zip.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_189" = {
-         isa = "PBXFileReference";
-         path = "zipconf.h";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_20",
-            "OBJ_21",
-            "OBJ_22",
-            "OBJ_23",
-            "OBJ_24",
-            "OBJ_25",
-            "OBJ_26",
-            "OBJ_27"
-         );
-         name = "SwiftNpy";
-         path = ".build/checkouts/swift-npy/Sources/SwiftNpy";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_190" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/jafffy/workspace/InverseRendering/VirtualObjectInsertion-Swift/.build/checkouts/SwiftZip/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_191" = {
-         isa = "PBXGroup";
-         children = (
-            "swift-npy::SwiftNpy::Product",
-            "swiftzip::SwiftZip::Product",
-            "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product",
-            "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product",
-            "swiftzip::zip::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_197" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_199" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_200",
-            "OBJ_201"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "DataType.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_200" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftNpy_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SwiftNpy";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "SwiftNpy";
-         };
-         name = "Debug";
-      };
-      "OBJ_201" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftNpy_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SwiftNpy";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "SwiftNpy";
-         };
-         name = "Release";
-      };
-      "OBJ_202" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_203",
-            "OBJ_204",
-            "OBJ_205",
-            "OBJ_206",
-            "OBJ_207",
-            "OBJ_208",
-            "OBJ_209",
-            "OBJ_210"
-         );
-      };
-      "OBJ_203" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
-      };
-      "OBJ_204" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_205" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
-      };
-      "OBJ_206" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
-      "OBJ_207" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
-      };
-      "OBJ_208" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
-      };
-      "OBJ_209" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "Npy.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_210" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_211" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_212",
-            "OBJ_213"
-         );
-      };
-      "OBJ_212" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::SwiftZip::Product";
-      };
-      "OBJ_213" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::zip::Product";
-      };
-      "OBJ_214" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::SwiftZip";
-      };
-      "OBJ_216" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::zip";
-      };
-      "OBJ_219" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_220",
-            "OBJ_221"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_22" = {
-         isa = "PBXFileReference";
-         path = "NpyHeader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_220" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "4.0.0"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_221" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "4.0.0"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_222" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_223"
-         );
-      };
-      "OBJ_223" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
-      };
-      "OBJ_224" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_225",
-            "OBJ_226"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_225" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftZip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SwiftZip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SwiftZip";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_226" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftZip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "SwiftZip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "SwiftZip";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_227" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_228",
-            "OBJ_229",
-            "OBJ_230",
-            "OBJ_231",
-            "OBJ_232",
-            "OBJ_233",
-            "OBJ_234",
-            "OBJ_235",
-            "OBJ_236",
-            "OBJ_237",
-            "OBJ_238",
-            "OBJ_239",
-            "OBJ_240",
-            "OBJ_241",
-            "OBJ_242",
-            "OBJ_243",
-            "OBJ_244",
-            "OBJ_245",
-            "OBJ_246",
-            "OBJ_247",
-            "OBJ_248",
-            "OBJ_249",
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252",
-            "OBJ_253",
-            "OBJ_254",
-            "OBJ_255",
-            "OBJ_256",
-            "OBJ_257",
-            "OBJ_258",
-            "OBJ_259",
-            "OBJ_260"
-         );
-      };
-      "OBJ_228" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_229" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
-      };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "NpyLoader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_230" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
-      };
-      "OBJ_231" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
-      };
-      "OBJ_232" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_233" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
-      };
-      "OBJ_234" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
-      };
-      "OBJ_235" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-      };
-      "OBJ_236" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_237" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
-      };
-      "OBJ_238" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
-      };
-      "OBJ_239" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
-      };
-      "OBJ_24" = {
-         isa = "PBXFileReference";
-         path = "NpySaver.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_240" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_241" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_242" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_243" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_244" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
-      };
-      "OBJ_245" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_49";
-      };
-      "OBJ_246" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_247" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_51";
-      };
-      "OBJ_248" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
-      };
-      "OBJ_249" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
-      };
-      "OBJ_25" = {
-         isa = "PBXFileReference";
-         path = "Npz.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_250" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
-      };
-      "OBJ_251" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_252" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
-      };
-      "OBJ_253" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_57";
-      };
-      "OBJ_254" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
-      };
-      "OBJ_255" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
-      };
-      "OBJ_256" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_257" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
-      };
-      "OBJ_258" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
-      };
-      "OBJ_259" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_26" = {
-         isa = "PBXFileReference";
-         path = "NpzLoader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_260" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
-      };
-      "OBJ_261" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_262"
-         );
-      };
-      "OBJ_262" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::zip::Product";
-      };
-      "OBJ_263" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::zip";
-      };
-      "OBJ_265" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_266",
-            "OBJ_267"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_266" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_267" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.3.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_268" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_269"
-         );
-      };
-      "OBJ_269" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_190";
-      };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "NpzSaver.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_271" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_272",
-            "OBJ_273"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_272" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_Swift_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "VirtualObjectInsertion-Swift";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_273" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_Swift_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "VirtualObjectInsertion-Swift";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_274" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_275",
-            "OBJ_276",
-            "OBJ_277",
-            "OBJ_278",
-            "OBJ_279"
-         );
-      };
-      "OBJ_275" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_276" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_277" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_278" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
-      };
-      "OBJ_279" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/jafffy/workspace/InverseRendering/VirtualObjectInsertion-Swift/.build/checkouts/swift-npy/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_280" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_281",
-            "OBJ_282",
-            "OBJ_283"
-         );
-      };
-      "OBJ_281" = {
-         isa = "PBXBuildFile";
-         fileRef = "swift-npy::SwiftNpy::Product";
-      };
-      "OBJ_282" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::SwiftZip::Product";
-      };
-      "OBJ_283" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::zip::Product";
-      };
-      "OBJ_284" = {
-         isa = "PBXTargetDependency";
-         target = "swift-npy::SwiftNpy";
-      };
-      "OBJ_285" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::SwiftZip";
-      };
-      "OBJ_286" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::zip";
-      };
-      "OBJ_288" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_289",
-            "OBJ_290"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_289" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.7.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_29" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_30",
-            "OBJ_65",
-            "OBJ_66",
-            "OBJ_190"
-         );
-         name = "SwiftZip 0.0.5";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_290" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk",
-               "-package-description-version",
-               "5.7.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_291" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_292"
-         );
-      };
-      "OBJ_292" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_294" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_295",
-            "OBJ_296"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_295" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_296" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_297" = {
-         isa = "PBXTargetDependency";
-         target = "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests";
-      };
-      "OBJ_299" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_300",
-            "OBJ_301"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_31",
-            "OBJ_35",
-            "OBJ_36",
-            "OBJ_37",
-            "OBJ_38",
-            "OBJ_39",
-            "OBJ_40",
-            "OBJ_41",
-            "OBJ_42",
-            "OBJ_43",
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47",
-            "OBJ_48",
-            "OBJ_49",
-            "OBJ_50",
-            "OBJ_51",
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64"
-         );
-         name = "SwiftZip";
-         path = ".build/checkouts/SwiftZip/Sources/SwiftZip";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_300" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_SwiftTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "VirtualObjectInsertion-SwiftTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_301" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_SwiftTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "11.0";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "VirtualObjectInsertion-SwiftTests";
-            TVOS_DEPLOYMENT_TARGET = "14.0";
-            WATCHOS_DEPLOYMENT_TARGET = "7.0";
-         };
-         name = "Release";
-      };
-      "OBJ_302" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_303"
-         );
-      };
-      "OBJ_303" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_304" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_305",
-            "OBJ_306",
-            "OBJ_307"
-         );
-      };
-      "OBJ_305" = {
-         isa = "PBXBuildFile";
-         fileRef = "swift-npy::SwiftNpy::Product";
-      };
-      "OBJ_306" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::SwiftZip::Product";
-      };
-      "OBJ_307" = {
-         isa = "PBXBuildFile";
-         fileRef = "swiftzip::zip::Product";
-      };
-      "OBJ_308" = {
-         isa = "PBXTargetDependency";
-         target = "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift";
-      };
-      "OBJ_309" = {
-         isa = "PBXTargetDependency";
-         target = "swift-npy::SwiftNpy";
-      };
-      "OBJ_31" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_32",
-            "OBJ_33",
-            "OBJ_34"
-         );
-         name = "Utils";
-         path = "Utils";
-         sourceTree = "<group>";
-      };
-      "OBJ_310" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::SwiftZip";
-      };
-      "OBJ_311" = {
-         isa = "PBXTargetDependency";
-         target = "swiftzip::zip";
-      };
-      "OBJ_312" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_313",
-            "OBJ_314"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_313" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DEFINES_MODULE = "YES";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "HAVE_CONFIG_H"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
-               "libzip/lib",
-               "include-private",
-               "include-private/darwin"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/zip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz",
-               "-lbz2"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "zip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "zip";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_314" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            CURRENT_PROJECT_VERSION = "1";
-            DEFINES_MODULE = "YES";
-            DRIVERKIT_DEPLOYMENT_TARGET = "19.0";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "HAVE_CONFIG_H"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
-               "libzip/lib",
-               "include-private",
-               "include-private/darwin"
-            );
-            INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/zip_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "11.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.13";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz",
-               "-lbz2"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "zip";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "zip";
-            TVOS_DEPLOYMENT_TARGET = "11.0";
-            WATCHOS_DEPLOYMENT_TARGET = "4.0";
-         };
-         name = "Release";
-      };
-      "OBJ_315" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_316",
-            "OBJ_317",
-            "OBJ_318",
-            "OBJ_319",
-            "OBJ_320",
-            "OBJ_321",
-            "OBJ_322",
-            "OBJ_323",
-            "OBJ_324",
-            "OBJ_325",
-            "OBJ_326",
-            "OBJ_327",
-            "OBJ_328",
-            "OBJ_329",
-            "OBJ_330",
-            "OBJ_331",
-            "OBJ_332",
-            "OBJ_333",
-            "OBJ_334",
-            "OBJ_335",
-            "OBJ_336",
-            "OBJ_337",
-            "OBJ_338",
-            "OBJ_339",
-            "OBJ_340",
-            "OBJ_341",
-            "OBJ_342",
-            "OBJ_343",
-            "OBJ_344",
-            "OBJ_345",
-            "OBJ_346",
-            "OBJ_347",
-            "OBJ_348",
-            "OBJ_349",
-            "OBJ_350",
-            "OBJ_351",
-            "OBJ_352",
-            "OBJ_353",
-            "OBJ_354",
-            "OBJ_355",
-            "OBJ_356",
-            "OBJ_357",
-            "OBJ_358",
-            "OBJ_359",
-            "OBJ_360",
-            "OBJ_361",
-            "OBJ_362",
-            "OBJ_363",
-            "OBJ_364",
-            "OBJ_365",
-            "OBJ_366",
-            "OBJ_367",
-            "OBJ_368",
-            "OBJ_369",
-            "OBJ_370",
-            "OBJ_371",
-            "OBJ_372",
-            "OBJ_373",
-            "OBJ_374",
-            "OBJ_375",
-            "OBJ_376",
-            "OBJ_377",
-            "OBJ_378",
-            "OBJ_379",
-            "OBJ_380",
-            "OBJ_381",
-            "OBJ_382",
-            "OBJ_383",
-            "OBJ_384",
-            "OBJ_385",
-            "OBJ_386",
-            "OBJ_387",
-            "OBJ_388",
-            "OBJ_389",
-            "OBJ_390",
-            "OBJ_391",
-            "OBJ_392",
-            "OBJ_393",
-            "OBJ_394",
-            "OBJ_395",
-            "OBJ_396",
-            "OBJ_397",
-            "OBJ_398",
-            "OBJ_399",
-            "OBJ_400",
-            "OBJ_401",
-            "OBJ_402",
-            "OBJ_403",
-            "OBJ_404",
-            "OBJ_405",
-            "OBJ_406",
-            "OBJ_407",
-            "OBJ_408",
-            "OBJ_409",
-            "OBJ_410",
-            "OBJ_411",
-            "OBJ_412",
-            "OBJ_413",
-            "OBJ_414",
-            "OBJ_415",
-            "OBJ_416",
-            "OBJ_417",
-            "OBJ_418",
-            "OBJ_419",
-            "OBJ_420",
-            "OBJ_421",
-            "OBJ_422",
-            "OBJ_423",
-            "OBJ_424",
-            "OBJ_425",
-            "OBJ_426",
-            "OBJ_427",
-            "OBJ_428",
-            "OBJ_429",
-            "OBJ_430",
-            "OBJ_431",
-            "OBJ_432"
-         );
-      };
-      "OBJ_316" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
-      };
-      "OBJ_317" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
-      };
-      "OBJ_318" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
-      };
-      "OBJ_319" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "ZipErrorContext.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_320" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_74";
-      };
-      "OBJ_321" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
-      };
-      "OBJ_322" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
-      };
-      "OBJ_323" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
-      };
-      "OBJ_324" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
-      };
-      "OBJ_325" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
-      };
-      "OBJ_326" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
-      };
-      "OBJ_327" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
-      };
-      "OBJ_328" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
-      };
-      "OBJ_329" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
-      };
-      "OBJ_33" = {
-         isa = "PBXFileReference";
-         path = "ZipOptional.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_330" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_84";
-      };
-      "OBJ_331" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
-      };
-      "OBJ_332" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_86";
-      };
-      "OBJ_333" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_87";
-      };
-      "OBJ_334" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_88";
-      };
-      "OBJ_335" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_89";
-      };
-      "OBJ_336" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_90";
-      };
-      "OBJ_337" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_91";
-      };
-      "OBJ_338" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_92";
-      };
-      "OBJ_339" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_93";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "ZipUtils.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_340" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_94";
-      };
-      "OBJ_341" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_95";
-      };
-      "OBJ_342" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_96";
-      };
-      "OBJ_343" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_97";
-      };
-      "OBJ_344" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_98";
-      };
-      "OBJ_345" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_99";
-      };
-      "OBJ_346" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_100";
-      };
-      "OBJ_347" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_101";
-      };
-      "OBJ_348" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_102";
-      };
-      "OBJ_349" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_103";
-      };
-      "OBJ_35" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+AddFileFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_350" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_104";
-      };
-      "OBJ_351" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_105";
-      };
-      "OBJ_352" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_106";
-      };
-      "OBJ_353" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_107";
-      };
-      "OBJ_354" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_108";
-      };
-      "OBJ_355" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_109";
-      };
-      "OBJ_356" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_110";
-      };
-      "OBJ_357" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_111";
-      };
-      "OBJ_358" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_112";
-      };
-      "OBJ_359" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_113";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+EntryCollection.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_360" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_114";
-      };
-      "OBJ_361" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_115";
-      };
-      "OBJ_362" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_116";
-      };
-      "OBJ_363" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_117";
-      };
-      "OBJ_364" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_118";
-      };
-      "OBJ_365" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_119";
-      };
-      "OBJ_366" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_120";
-      };
-      "OBJ_367" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_121";
-      };
-      "OBJ_368" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_122";
-      };
-      "OBJ_369" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_123";
-      };
-      "OBJ_37" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+FDOpenFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_370" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_124";
-      };
-      "OBJ_371" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_125";
-      };
-      "OBJ_372" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_126";
-      };
-      "OBJ_373" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_127";
-      };
-      "OBJ_374" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_128";
-      };
-      "OBJ_375" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_129";
-      };
-      "OBJ_376" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_130";
-      };
-      "OBJ_377" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_131";
-      };
-      "OBJ_378" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_132";
-      };
-      "OBJ_379" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_133";
-      };
-      "OBJ_38" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+LocateFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_380" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_134";
-      };
-      "OBJ_381" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_135";
-      };
-      "OBJ_382" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_136";
-      };
-      "OBJ_383" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_137";
-      };
-      "OBJ_384" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_138";
-      };
-      "OBJ_385" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_139";
-      };
-      "OBJ_386" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_140";
-      };
-      "OBJ_387" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_141";
-      };
-      "OBJ_388" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_142";
-      };
-      "OBJ_389" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_143";
-      };
-      "OBJ_39" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+OpenFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_390" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_144";
-      };
-      "OBJ_391" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_145";
-      };
-      "OBJ_392" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_146";
-      };
-      "OBJ_393" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_147";
-      };
-      "OBJ_394" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_148";
-      };
-      "OBJ_395" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_149";
-      };
-      "OBJ_396" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_150";
-      };
-      "OBJ_397" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_151";
-      };
-      "OBJ_398" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_152";
-      };
-      "OBJ_399" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_153";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "$(AVAILABLE_PLATFORMS)"
-            );
-            SUPPORTS_MACCATALYST = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive+Version.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_400" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_154";
-      };
-      "OBJ_401" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_155";
-      };
-      "OBJ_402" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_156";
-      };
-      "OBJ_403" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_157";
-      };
-      "OBJ_404" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_158";
-      };
-      "OBJ_405" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_159";
-      };
-      "OBJ_406" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_160";
-      };
-      "OBJ_407" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_161";
-      };
-      "OBJ_408" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_162";
-      };
-      "OBJ_409" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_163";
-      };
-      "OBJ_41" = {
-         isa = "PBXFileReference";
-         path = "ZipArchive.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_410" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_164";
-      };
-      "OBJ_411" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_165";
-      };
-      "OBJ_412" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_166";
-      };
-      "OBJ_413" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_167";
-      };
-      "OBJ_414" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_168";
-      };
-      "OBJ_415" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_169";
-      };
-      "OBJ_416" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_170";
-      };
-      "OBJ_417" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_171";
-      };
-      "OBJ_418" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_172";
-      };
-      "OBJ_419" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_173";
-      };
-      "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry+ExternalAttributes+OperatingSystem.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_420" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_174";
-      };
-      "OBJ_421" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_175";
-      };
-      "OBJ_422" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_176";
-      };
-      "OBJ_423" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_177";
-      };
-      "OBJ_424" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_178";
-      };
-      "OBJ_425" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_179";
-      };
-      "OBJ_426" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_180";
-      };
-      "OBJ_427" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_181";
-      };
-      "OBJ_428" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_182";
-      };
-      "OBJ_429" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_183";
-      };
-      "OBJ_43" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry+ExternalAttributes.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_430" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_184";
-      };
-      "OBJ_431" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_185";
-      };
-      "OBJ_432" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_186";
-      };
-      "OBJ_433" = {
-         isa = "PBXHeadersBuildPhase";
-         files = (
-            "OBJ_434",
-            "OBJ_435"
-         );
-      };
-      "OBJ_434" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_188";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_435" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_189";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_436" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry+ExtraFieldFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry+OpenFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry+Utils.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_47" = {
-         isa = "PBXFileReference";
-         path = "ZipEntry.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_48" = {
-         isa = "PBXFileReference";
-         path = "ZipEntryReader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_49" = {
-         isa = "PBXFileReference";
-         path = "ZipError.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_14",
-            "OBJ_17",
-            "OBJ_191",
-            "OBJ_197"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_50" = {
-         isa = "PBXFileReference";
-         path = "ZipMutableArchive+MutableEntryCollection.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_51" = {
-         isa = "PBXFileReference";
-         path = "ZipMutableArchive+MutableOpenFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "ZipMutableArchive.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "ZipMutableEntry.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "ZipSource+Data.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "ZipSource.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_56" = {
-         isa = "PBXFileReference";
-         path = "ZipSourceAdapter.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_57" = {
-         isa = "PBXFileReference";
-         path = "ZipSourceAdapterProxy.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_58" = {
-         isa = "PBXFileReference";
-         path = "ZipStat+CompressionFlags.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "ZipStat+CompressionMethod.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXFileReference";
-         path = "ZipStat+EncryptionMethod.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_61" = {
-         isa = "PBXFileReference";
-         path = "ZipStat+ValidFields.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_62" = {
-         isa = "PBXFileReference";
-         path = "ZipStat.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "ZipStringDecodingStrategy.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_64" = {
-         isa = "PBXFileReference";
-         path = "ZipWhence.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_65" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "SwiftZipUtils";
-         path = ".build/checkouts/SwiftZip/Sources/SwiftZipUtils";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_66" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_67",
-            "OBJ_187"
-         );
-         name = "zip";
-         path = ".build/checkouts/SwiftZip/Sources/zip";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_67" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_68",
-            "OBJ_70"
-         );
-         name = "libzip";
-         path = "libzip";
-         sourceTree = "<group>";
-      };
-      "OBJ_68" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_69"
-         );
-         name = "developer-xcode";
-         path = "developer-xcode";
-         sourceTree = "<group>";
-      };
-      "OBJ_69" = {
-         isa = "PBXFileReference";
-         path = "zip_err_str.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_70" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73",
-            "OBJ_74",
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_77",
-            "OBJ_78",
-            "OBJ_79",
-            "OBJ_80",
-            "OBJ_81",
-            "OBJ_82",
-            "OBJ_83",
-            "OBJ_84",
-            "OBJ_85",
-            "OBJ_86",
-            "OBJ_87",
-            "OBJ_88",
-            "OBJ_89",
-            "OBJ_90",
-            "OBJ_91",
-            "OBJ_92",
-            "OBJ_93",
-            "OBJ_94",
-            "OBJ_95",
-            "OBJ_96",
-            "OBJ_97",
-            "OBJ_98",
-            "OBJ_99",
-            "OBJ_100",
-            "OBJ_101",
-            "OBJ_102",
-            "OBJ_103",
-            "OBJ_104",
-            "OBJ_105",
-            "OBJ_106",
-            "OBJ_107",
-            "OBJ_108",
-            "OBJ_109",
-            "OBJ_110",
-            "OBJ_111",
-            "OBJ_112",
-            "OBJ_113",
-            "OBJ_114",
-            "OBJ_115",
-            "OBJ_116",
-            "OBJ_117",
-            "OBJ_118",
-            "OBJ_119",
-            "OBJ_120",
-            "OBJ_121",
-            "OBJ_122",
-            "OBJ_123",
-            "OBJ_124",
-            "OBJ_125",
-            "OBJ_126",
-            "OBJ_127",
-            "OBJ_128",
-            "OBJ_129",
-            "OBJ_130",
-            "OBJ_131",
-            "OBJ_132",
-            "OBJ_133",
-            "OBJ_134",
-            "OBJ_135",
-            "OBJ_136",
-            "OBJ_137",
-            "OBJ_138",
-            "OBJ_139",
-            "OBJ_140",
-            "OBJ_141",
-            "OBJ_142",
-            "OBJ_143",
-            "OBJ_144",
-            "OBJ_145",
-            "OBJ_146",
-            "OBJ_147",
-            "OBJ_148",
-            "OBJ_149",
-            "OBJ_150",
-            "OBJ_151",
-            "OBJ_152",
-            "OBJ_153",
-            "OBJ_154",
-            "OBJ_155",
-            "OBJ_156",
-            "OBJ_157",
-            "OBJ_158",
-            "OBJ_159",
-            "OBJ_160",
-            "OBJ_161",
-            "OBJ_162",
-            "OBJ_163",
-            "OBJ_164",
-            "OBJ_165",
-            "OBJ_166",
-            "OBJ_167",
-            "OBJ_168",
-            "OBJ_169",
-            "OBJ_170",
-            "OBJ_171",
-            "OBJ_172",
-            "OBJ_173",
-            "OBJ_174",
-            "OBJ_175",
-            "OBJ_176",
-            "OBJ_177",
-            "OBJ_178",
-            "OBJ_179",
-            "OBJ_180",
-            "OBJ_181",
-            "OBJ_182",
-            "OBJ_183",
-            "OBJ_184",
-            "OBJ_185",
-            "OBJ_186"
-         );
-         name = "lib";
-         path = "lib";
-         sourceTree = "<group>";
-      };
-      "OBJ_71" = {
-         isa = "PBXFileReference";
-         path = "zip_add.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_72" = {
-         isa = "PBXFileReference";
-         path = "zip_add_dir.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_73" = {
-         isa = "PBXFileReference";
-         path = "zip_add_entry.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_74" = {
-         isa = "PBXFileReference";
-         path = "zip_algorithm_bzip2.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_75" = {
-         isa = "PBXFileReference";
-         path = "zip_algorithm_deflate.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_76" = {
-         isa = "PBXFileReference";
-         path = "zip_buffer.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_77" = {
-         isa = "PBXFileReference";
-         path = "zip_close.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_78" = {
-         isa = "PBXFileReference";
-         path = "zip_crypto_commoncrypto.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_79" = {
-         isa = "PBXFileReference";
-         path = "zip_delete.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_13"
-         );
-         name = "VirtualObjectInsertion-Swift";
-         path = "Sources/VirtualObjectInsertion-Swift";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_80" = {
-         isa = "PBXFileReference";
-         path = "zip_dir_add.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_81" = {
-         isa = "PBXFileReference";
-         path = "zip_dirent.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_82" = {
-         isa = "PBXFileReference";
-         path = "zip_discard.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_83" = {
-         isa = "PBXFileReference";
-         path = "zip_entry.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_84" = {
-         isa = "PBXFileReference";
-         path = "zip_error.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_85" = {
-         isa = "PBXFileReference";
-         path = "zip_error_clear.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_86" = {
-         isa = "PBXFileReference";
-         path = "zip_error_get.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_87" = {
-         isa = "PBXFileReference";
-         path = "zip_error_get_sys_type.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_88" = {
-         isa = "PBXFileReference";
-         path = "zip_error_strerror.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_89" = {
-         isa = "PBXFileReference";
-         path = "zip_error_to_str.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "InverseRenderingResult.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_90" = {
-         isa = "PBXFileReference";
-         path = "zip_extra_field.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_91" = {
-         isa = "PBXFileReference";
-         path = "zip_extra_field_api.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_92" = {
-         isa = "PBXFileReference";
-         path = "zip_fclose.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_93" = {
-         isa = "PBXFileReference";
-         path = "zip_fdopen.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_94" = {
-         isa = "PBXFileReference";
-         path = "zip_file_add.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_95" = {
-         isa = "PBXFileReference";
-         path = "zip_file_error_clear.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_96" = {
-         isa = "PBXFileReference";
-         path = "zip_file_error_get.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_97" = {
-         isa = "PBXFileReference";
-         path = "zip_file_get_comment.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_98" = {
-         isa = "PBXFileReference";
-         path = "zip_file_get_external_attributes.c";
-         sourceTree = "<group>";
-      };
-      "OBJ_99" = {
-         isa = "PBXFileReference";
-         path = "zip_file_get_offset.c";
-         sourceTree = "<group>";
-      };
-      "swift-npy::SwiftNpy" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_199";
-         buildPhases = (
-            "OBJ_202",
-            "OBJ_211"
-         );
-         dependencies = (
-            "OBJ_214",
-            "OBJ_216"
-         );
-         name = "SwiftNpy";
-         productName = "SwiftNpy";
-         productReference = "swift-npy::SwiftNpy::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "swift-npy::SwiftNpy::Product" = {
-         isa = "PBXFileReference";
-         path = "SwiftNpy.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "swift-npy::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_219";
-         buildPhases = (
-            "OBJ_222"
-         );
-         dependencies = (
-         );
-         name = "SwiftNpyPackageDescription";
-         productName = "SwiftNpyPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "swiftzip::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_265";
-         buildPhases = (
-            "OBJ_268"
-         );
-         dependencies = (
-         );
-         name = "SwiftZipPackageDescription";
-         productName = "SwiftZipPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "swiftzip::SwiftZip" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_224";
-         buildPhases = (
-            "OBJ_227",
-            "OBJ_261"
-         );
-         dependencies = (
-            "OBJ_263"
-         );
-         name = "SwiftZip";
-         productName = "SwiftZip";
-         productReference = "swiftzip::SwiftZip::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "swiftzip::SwiftZip::Product" = {
-         isa = "PBXFileReference";
-         path = "SwiftZip.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "swiftzip::zip" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_312";
-         buildPhases = (
-            "OBJ_315",
-            "OBJ_433",
-            "OBJ_436"
-         );
-         dependencies = (
-         );
-         name = "zip";
-         productName = "zip";
-         productReference = "swiftzip::zip::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "swiftzip::zip::Product" = {
-         isa = "PBXFileReference";
-         path = "zip.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "virtualobjectinsertion-swift::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_288";
-         buildPhases = (
-            "OBJ_291"
-         );
-         dependencies = (
-         );
-         name = "VirtualObjectInsertion-SwiftPackageDescription";
-         productName = "VirtualObjectInsertion-SwiftPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_271";
-         buildPhases = (
-            "OBJ_274",
-            "OBJ_280"
-         );
-         dependencies = (
-            "OBJ_284",
-            "OBJ_285",
-            "OBJ_286"
-         );
-         name = "VirtualObjectInsertion-Swift";
-         productName = "VirtualObjectInsertion_Swift";
-         productReference = "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product";
-         productType = "com.apple.product-type.tool";
-      };
-      "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product" = {
-         isa = "PBXFileReference";
-         path = "VirtualObjectInsertion-Swift";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftPackageTests::ProductTarget" = {
-         isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_294";
-         buildPhases = (
-         );
-         dependencies = (
-            "OBJ_297"
-         );
-         name = "VirtualObjectInsertion-SwiftPackageTests";
-         productName = "VirtualObjectInsertion-SwiftPackageTests";
-      };
-      "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_299";
-         buildPhases = (
-            "OBJ_302",
-            "OBJ_304"
-         );
-         dependencies = (
-            "OBJ_308",
-            "OBJ_309",
-            "OBJ_310",
-            "OBJ_311"
-         );
-         name = "VirtualObjectInsertion-SwiftTests";
-         productName = "VirtualObjectInsertion_SwiftTests";
-         productReference = "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product" = {
-         isa = "PBXFileReference";
-         path = "VirtualObjectInsertion_SwiftTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftPackageTests::ProductTarget" /* VirtualObjectInsertion-SwiftPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_301 /* Build configuration list for PBXAggregateTarget "VirtualObjectInsertion-SwiftPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_304 /* PBXTargetDependency */,
+			);
+			name = "VirtualObjectInsertion-SwiftPackageTests";
+			productName = "VirtualObjectInsertion-SwiftPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_207 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* DataType.swift */; };
+		OBJ_208 /* Npy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Npy.swift */; };
+		OBJ_209 /* NpyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* NpyHeader.swift */; };
+		OBJ_210 /* NpyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* NpyLoader.swift */; };
+		OBJ_211 /* NpySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* NpySaver.swift */; };
+		OBJ_212 /* Npz.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Npz.swift */; };
+		OBJ_213 /* NpzLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* NpzLoader.swift */; };
+		OBJ_214 /* NpzSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* NpzSaver.swift */; };
+		OBJ_216 /* SwiftZip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::SwiftZip::Product" /* SwiftZip.framework */; };
+		OBJ_217 /* zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::zip::Product" /* zip.framework */; };
+		OBJ_227 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Package.swift */; };
+		OBJ_232 /* ZipErrorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ZipErrorContext.swift */; };
+		OBJ_233 /* ZipOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ZipOptional.swift */; };
+		OBJ_234 /* ZipUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ZipUtils.swift */; };
+		OBJ_235 /* ZipArchive+AddFileFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ZipArchive+AddFileFlags.swift */; };
+		OBJ_236 /* ZipArchive+EntryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ZipArchive+EntryCollection.swift */; };
+		OBJ_237 /* ZipArchive+FDOpenFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* ZipArchive+FDOpenFlags.swift */; };
+		OBJ_238 /* ZipArchive+LocateFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ZipArchive+LocateFlags.swift */; };
+		OBJ_239 /* ZipArchive+OpenFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ZipArchive+OpenFlags.swift */; };
+		OBJ_240 /* ZipArchive+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* ZipArchive+Version.swift */; };
+		OBJ_241 /* ZipArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ZipArchive.swift */; };
+		OBJ_242 /* ZipEntry+ExternalAttributes+OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ZipEntry+ExternalAttributes+OperatingSystem.swift */; };
+		OBJ_243 /* ZipEntry+ExternalAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ZipEntry+ExternalAttributes.swift */; };
+		OBJ_244 /* ZipEntry+ExtraFieldFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* ZipEntry+ExtraFieldFlags.swift */; };
+		OBJ_245 /* ZipEntry+OpenFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* ZipEntry+OpenFlags.swift */; };
+		OBJ_246 /* ZipEntry+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ZipEntry+Utils.swift */; };
+		OBJ_247 /* ZipEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ZipEntry.swift */; };
+		OBJ_248 /* ZipEntryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* ZipEntryReader.swift */; };
+		OBJ_249 /* ZipError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ZipError.swift */; };
+		OBJ_250 /* ZipMutableArchive+MutableEntryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ZipMutableArchive+MutableEntryCollection.swift */; };
+		OBJ_251 /* ZipMutableArchive+MutableOpenFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* ZipMutableArchive+MutableOpenFlags.swift */; };
+		OBJ_252 /* ZipMutableArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ZipMutableArchive.swift */; };
+		OBJ_253 /* ZipMutableEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* ZipMutableEntry.swift */; };
+		OBJ_254 /* ZipSource+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* ZipSource+Data.swift */; };
+		OBJ_255 /* ZipSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* ZipSource.swift */; };
+		OBJ_256 /* ZipSourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* ZipSourceAdapter.swift */; };
+		OBJ_257 /* ZipSourceAdapterProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* ZipSourceAdapterProxy.swift */; };
+		OBJ_258 /* ZipStat+CompressionFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ZipStat+CompressionFlags.swift */; };
+		OBJ_259 /* ZipStat+CompressionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* ZipStat+CompressionMethod.swift */; };
+		OBJ_260 /* ZipStat+EncryptionMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* ZipStat+EncryptionMethod.swift */; };
+		OBJ_261 /* ZipStat+ValidFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ZipStat+ValidFields.swift */; };
+		OBJ_262 /* ZipStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* ZipStat.swift */; };
+		OBJ_263 /* ZipStringDecodingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* ZipStringDecodingStrategy.swift */; };
+		OBJ_264 /* ZipWhence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* ZipWhence.swift */; };
+		OBJ_266 /* zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::zip::Product" /* zip.framework */; };
+		OBJ_273 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* Package.swift */; };
+		OBJ_279 /* InverseRenderingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* InverseRenderingResult.swift */; };
+		OBJ_280 /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* MathUtil.swift */; };
+		OBJ_281 /* NpyUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* NpyUtil.swift */; };
+		OBJ_282 /* lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* lights.swift */; };
+		OBJ_283 /* material.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* material.swift */; };
+		OBJ_284 /* prd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* prd.swift */; };
+		OBJ_285 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* main.swift */; };
+		OBJ_286 /* types.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* types.swift */; };
+		OBJ_288 /* SwiftNpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-npy::SwiftNpy::Product" /* SwiftNpy.framework */; };
+		OBJ_289 /* SwiftZip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::SwiftZip::Product" /* SwiftZip.framework */; };
+		OBJ_290 /* zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::zip::Product" /* zip.framework */; };
+		OBJ_299 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_310 /* VirtualObjectInsertion_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* VirtualObjectInsertion_SwiftTests.swift */; };
+		OBJ_312 /* SwiftNpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-npy::SwiftNpy::Product" /* SwiftNpy.framework */; };
+		OBJ_313 /* SwiftZip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::SwiftZip::Product" /* SwiftZip.framework */; };
+		OBJ_314 /* zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swiftzip::zip::Product" /* zip.framework */; };
+		OBJ_323 /* zip_err_str.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* zip_err_str.c */; };
+		OBJ_324 /* zip_add.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* zip_add.c */; };
+		OBJ_325 /* zip_add_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* zip_add_dir.c */; };
+		OBJ_326 /* zip_add_entry.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* zip_add_entry.c */; };
+		OBJ_327 /* zip_algorithm_bzip2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* zip_algorithm_bzip2.c */; };
+		OBJ_328 /* zip_algorithm_deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* zip_algorithm_deflate.c */; };
+		OBJ_329 /* zip_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* zip_buffer.c */; };
+		OBJ_330 /* zip_close.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* zip_close.c */; };
+		OBJ_331 /* zip_crypto_commoncrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* zip_crypto_commoncrypto.c */; };
+		OBJ_332 /* zip_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* zip_delete.c */; };
+		OBJ_333 /* zip_dir_add.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* zip_dir_add.c */; };
+		OBJ_334 /* zip_dirent.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* zip_dirent.c */; };
+		OBJ_335 /* zip_discard.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* zip_discard.c */; };
+		OBJ_336 /* zip_entry.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* zip_entry.c */; };
+		OBJ_337 /* zip_error.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* zip_error.c */; };
+		OBJ_338 /* zip_error_clear.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* zip_error_clear.c */; };
+		OBJ_339 /* zip_error_get.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* zip_error_get.c */; };
+		OBJ_340 /* zip_error_get_sys_type.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* zip_error_get_sys_type.c */; };
+		OBJ_341 /* zip_error_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* zip_error_strerror.c */; };
+		OBJ_342 /* zip_error_to_str.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* zip_error_to_str.c */; };
+		OBJ_343 /* zip_extra_field.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* zip_extra_field.c */; };
+		OBJ_344 /* zip_extra_field_api.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* zip_extra_field_api.c */; };
+		OBJ_345 /* zip_fclose.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* zip_fclose.c */; };
+		OBJ_346 /* zip_fdopen.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* zip_fdopen.c */; };
+		OBJ_347 /* zip_file_add.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* zip_file_add.c */; };
+		OBJ_348 /* zip_file_error_clear.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* zip_file_error_clear.c */; };
+		OBJ_349 /* zip_file_error_get.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* zip_file_error_get.c */; };
+		OBJ_350 /* zip_file_get_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* zip_file_get_comment.c */; };
+		OBJ_351 /* zip_file_get_external_attributes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* zip_file_get_external_attributes.c */; };
+		OBJ_352 /* zip_file_get_offset.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* zip_file_get_offset.c */; };
+		OBJ_353 /* zip_file_rename.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* zip_file_rename.c */; };
+		OBJ_354 /* zip_file_replace.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* zip_file_replace.c */; };
+		OBJ_355 /* zip_file_set_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* zip_file_set_comment.c */; };
+		OBJ_356 /* zip_file_set_encryption.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* zip_file_set_encryption.c */; };
+		OBJ_357 /* zip_file_set_external_attributes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* zip_file_set_external_attributes.c */; };
+		OBJ_358 /* zip_file_set_mtime.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* zip_file_set_mtime.c */; };
+		OBJ_359 /* zip_file_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* zip_file_strerror.c */; };
+		OBJ_360 /* zip_fopen.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* zip_fopen.c */; };
+		OBJ_361 /* zip_fopen_encrypted.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* zip_fopen_encrypted.c */; };
+		OBJ_362 /* zip_fopen_index.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* zip_fopen_index.c */; };
+		OBJ_363 /* zip_fopen_index_encrypted.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* zip_fopen_index_encrypted.c */; };
+		OBJ_364 /* zip_fread.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* zip_fread.c */; };
+		OBJ_365 /* zip_fseek.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* zip_fseek.c */; };
+		OBJ_366 /* zip_ftell.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* zip_ftell.c */; };
+		OBJ_367 /* zip_get_archive_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* zip_get_archive_comment.c */; };
+		OBJ_368 /* zip_get_archive_flag.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* zip_get_archive_flag.c */; };
+		OBJ_369 /* zip_get_encryption_implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* zip_get_encryption_implementation.c */; };
+		OBJ_370 /* zip_get_file_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* zip_get_file_comment.c */; };
+		OBJ_371 /* zip_get_name.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* zip_get_name.c */; };
+		OBJ_372 /* zip_get_num_entries.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* zip_get_num_entries.c */; };
+		OBJ_373 /* zip_get_num_files.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* zip_get_num_files.c */; };
+		OBJ_374 /* zip_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* zip_hash.c */; };
+		OBJ_375 /* zip_io_util.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* zip_io_util.c */; };
+		OBJ_376 /* zip_libzip_version.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* zip_libzip_version.c */; };
+		OBJ_377 /* zip_memdup.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* zip_memdup.c */; };
+		OBJ_378 /* zip_mkstempm.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* zip_mkstempm.c */; };
+		OBJ_379 /* zip_name_locate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* zip_name_locate.c */; };
+		OBJ_380 /* zip_new.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* zip_new.c */; };
+		OBJ_381 /* zip_open.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* zip_open.c */; };
+		OBJ_382 /* zip_pkware.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* zip_pkware.c */; };
+		OBJ_383 /* zip_progress.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* zip_progress.c */; };
+		OBJ_384 /* zip_random_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* zip_random_unix.c */; };
+		OBJ_385 /* zip_rename.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* zip_rename.c */; };
+		OBJ_386 /* zip_replace.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* zip_replace.c */; };
+		OBJ_387 /* zip_set_archive_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* zip_set_archive_comment.c */; };
+		OBJ_388 /* zip_set_archive_flag.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* zip_set_archive_flag.c */; };
+		OBJ_389 /* zip_set_default_password.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* zip_set_default_password.c */; };
+		OBJ_390 /* zip_set_file_comment.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* zip_set_file_comment.c */; };
+		OBJ_391 /* zip_set_file_compression.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* zip_set_file_compression.c */; };
+		OBJ_392 /* zip_set_name.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* zip_set_name.c */; };
+		OBJ_393 /* zip_source_accept_empty.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* zip_source_accept_empty.c */; };
+		OBJ_394 /* zip_source_begin_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* zip_source_begin_write.c */; };
+		OBJ_395 /* zip_source_begin_write_cloning.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* zip_source_begin_write_cloning.c */; };
+		OBJ_396 /* zip_source_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* zip_source_buffer.c */; };
+		OBJ_397 /* zip_source_call.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* zip_source_call.c */; };
+		OBJ_398 /* zip_source_close.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* zip_source_close.c */; };
+		OBJ_399 /* zip_source_commit_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* zip_source_commit_write.c */; };
+		OBJ_400 /* zip_source_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* zip_source_compress.c */; };
+		OBJ_401 /* zip_source_crc.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* zip_source_crc.c */; };
+		OBJ_402 /* zip_source_error.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* zip_source_error.c */; };
+		OBJ_403 /* zip_source_file_common.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* zip_source_file_common.c */; };
+		OBJ_404 /* zip_source_file_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* zip_source_file_stdio.c */; };
+		OBJ_405 /* zip_source_file_stdio_named.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* zip_source_file_stdio_named.c */; };
+		OBJ_406 /* zip_source_free.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* zip_source_free.c */; };
+		OBJ_407 /* zip_source_function.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* zip_source_function.c */; };
+		OBJ_408 /* zip_source_get_file_attributes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* zip_source_get_file_attributes.c */; };
+		OBJ_409 /* zip_source_is_deleted.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* zip_source_is_deleted.c */; };
+		OBJ_410 /* zip_source_layered.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* zip_source_layered.c */; };
+		OBJ_411 /* zip_source_open.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* zip_source_open.c */; };
+		OBJ_412 /* zip_source_pkware_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* zip_source_pkware_decode.c */; };
+		OBJ_413 /* zip_source_pkware_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* zip_source_pkware_encode.c */; };
+		OBJ_414 /* zip_source_read.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* zip_source_read.c */; };
+		OBJ_415 /* zip_source_remove.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* zip_source_remove.c */; };
+		OBJ_416 /* zip_source_rollback_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* zip_source_rollback_write.c */; };
+		OBJ_417 /* zip_source_seek.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* zip_source_seek.c */; };
+		OBJ_418 /* zip_source_seek_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* zip_source_seek_write.c */; };
+		OBJ_419 /* zip_source_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* zip_source_stat.c */; };
+		OBJ_420 /* zip_source_supports.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* zip_source_supports.c */; };
+		OBJ_421 /* zip_source_tell.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* zip_source_tell.c */; };
+		OBJ_422 /* zip_source_tell_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* zip_source_tell_write.c */; };
+		OBJ_423 /* zip_source_window.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* zip_source_window.c */; };
+		OBJ_424 /* zip_source_winzip_aes_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* zip_source_winzip_aes_decode.c */; };
+		OBJ_425 /* zip_source_winzip_aes_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* zip_source_winzip_aes_encode.c */; };
+		OBJ_426 /* zip_source_write.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* zip_source_write.c */; };
+		OBJ_427 /* zip_source_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* zip_source_zip.c */; };
+		OBJ_428 /* zip_source_zip_new.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* zip_source_zip_new.c */; };
+		OBJ_429 /* zip_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* zip_stat.c */; };
+		OBJ_430 /* zip_stat_index.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* zip_stat_index.c */; };
+		OBJ_431 /* zip_stat_init.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* zip_stat_init.c */; };
+		OBJ_432 /* zip_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* zip_strerror.c */; };
+		OBJ_433 /* zip_string.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* zip_string.c */; };
+		OBJ_434 /* zip_unchange.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* zip_unchange.c */; };
+		OBJ_435 /* zip_unchange_all.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* zip_unchange_all.c */; };
+		OBJ_436 /* zip_unchange_archive.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* zip_unchange_archive.c */; };
+		OBJ_437 /* zip_unchange_data.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* zip_unchange_data.c */; };
+		OBJ_438 /* zip_utf-8.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* zip_utf-8.c */; };
+		OBJ_439 /* zip_winzip_aes.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* zip_winzip_aes.c */; };
+		OBJ_441 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_442 /* zipconf.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* zipconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8D792F29BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-npy::SwiftNpy";
+			remoteInfo = SwiftNpy;
+		};
+		FF8D793029BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::SwiftZip";
+			remoteInfo = SwiftZip;
+		};
+		FF8D793129BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::zip";
+			remoteInfo = zip;
+		};
+		FF8D793229BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::zip";
+			remoteInfo = zip;
+		};
+		FF8D793329BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::SwiftZip";
+			remoteInfo = SwiftZip;
+		};
+		FF8D793429BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::zip";
+			remoteInfo = zip;
+		};
+		FF8D793529BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift";
+			remoteInfo = "VirtualObjectInsertion-Swift";
+		};
+		FF8D793629BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swift-npy::SwiftNpy";
+			remoteInfo = SwiftNpy;
+		};
+		FF8D793729BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::SwiftZip";
+			remoteInfo = SwiftZip;
+		};
+		FF8D793829BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "swiftzip::zip";
+			remoteInfo = zip;
+		};
+		FF8D793929BA0D7A0014CFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests";
+			remoteInfo = "VirtualObjectInsertion-SwiftTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8D793B29BA0E660014CFDD /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
+		OBJ_10 /* MathUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
+		OBJ_100 /* zip_file_error_get.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_error_get.c; sourceTree = "<group>"; };
+		OBJ_101 /* zip_file_get_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_get_comment.c; sourceTree = "<group>"; };
+		OBJ_102 /* zip_file_get_external_attributes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_get_external_attributes.c; sourceTree = "<group>"; };
+		OBJ_103 /* zip_file_get_offset.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_get_offset.c; sourceTree = "<group>"; };
+		OBJ_104 /* zip_file_rename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_rename.c; sourceTree = "<group>"; };
+		OBJ_105 /* zip_file_replace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_replace.c; sourceTree = "<group>"; };
+		OBJ_106 /* zip_file_set_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_set_comment.c; sourceTree = "<group>"; };
+		OBJ_107 /* zip_file_set_encryption.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_set_encryption.c; sourceTree = "<group>"; };
+		OBJ_108 /* zip_file_set_external_attributes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_set_external_attributes.c; sourceTree = "<group>"; };
+		OBJ_109 /* zip_file_set_mtime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_set_mtime.c; sourceTree = "<group>"; };
+		OBJ_11 /* NpyUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpyUtil.swift; sourceTree = "<group>"; };
+		OBJ_110 /* zip_file_strerror.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_strerror.c; sourceTree = "<group>"; };
+		OBJ_111 /* zip_fopen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fopen.c; sourceTree = "<group>"; };
+		OBJ_112 /* zip_fopen_encrypted.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fopen_encrypted.c; sourceTree = "<group>"; };
+		OBJ_113 /* zip_fopen_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fopen_index.c; sourceTree = "<group>"; };
+		OBJ_114 /* zip_fopen_index_encrypted.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fopen_index_encrypted.c; sourceTree = "<group>"; };
+		OBJ_115 /* zip_fread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fread.c; sourceTree = "<group>"; };
+		OBJ_116 /* zip_fseek.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fseek.c; sourceTree = "<group>"; };
+		OBJ_117 /* zip_ftell.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_ftell.c; sourceTree = "<group>"; };
+		OBJ_118 /* zip_get_archive_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_archive_comment.c; sourceTree = "<group>"; };
+		OBJ_119 /* zip_get_archive_flag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_archive_flag.c; sourceTree = "<group>"; };
+		OBJ_120 /* zip_get_encryption_implementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_encryption_implementation.c; sourceTree = "<group>"; };
+		OBJ_121 /* zip_get_file_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_file_comment.c; sourceTree = "<group>"; };
+		OBJ_122 /* zip_get_name.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_name.c; sourceTree = "<group>"; };
+		OBJ_123 /* zip_get_num_entries.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_num_entries.c; sourceTree = "<group>"; };
+		OBJ_124 /* zip_get_num_files.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_get_num_files.c; sourceTree = "<group>"; };
+		OBJ_125 /* zip_hash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_hash.c; sourceTree = "<group>"; };
+		OBJ_126 /* zip_io_util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_io_util.c; sourceTree = "<group>"; };
+		OBJ_127 /* zip_libzip_version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_libzip_version.c; sourceTree = "<group>"; };
+		OBJ_128 /* zip_memdup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_memdup.c; sourceTree = "<group>"; };
+		OBJ_129 /* zip_mkstempm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_mkstempm.c; sourceTree = "<group>"; };
+		OBJ_13 /* lights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lights.swift; sourceTree = "<group>"; };
+		OBJ_130 /* zip_name_locate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_name_locate.c; sourceTree = "<group>"; };
+		OBJ_131 /* zip_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_new.c; sourceTree = "<group>"; };
+		OBJ_132 /* zip_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_open.c; sourceTree = "<group>"; };
+		OBJ_133 /* zip_pkware.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_pkware.c; sourceTree = "<group>"; };
+		OBJ_134 /* zip_progress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_progress.c; sourceTree = "<group>"; };
+		OBJ_135 /* zip_random_unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_random_unix.c; sourceTree = "<group>"; };
+		OBJ_136 /* zip_rename.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_rename.c; sourceTree = "<group>"; };
+		OBJ_137 /* zip_replace.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_replace.c; sourceTree = "<group>"; };
+		OBJ_138 /* zip_set_archive_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_archive_comment.c; sourceTree = "<group>"; };
+		OBJ_139 /* zip_set_archive_flag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_archive_flag.c; sourceTree = "<group>"; };
+		OBJ_14 /* material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = material.swift; sourceTree = "<group>"; };
+		OBJ_140 /* zip_set_default_password.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_default_password.c; sourceTree = "<group>"; };
+		OBJ_141 /* zip_set_file_comment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_file_comment.c; sourceTree = "<group>"; };
+		OBJ_142 /* zip_set_file_compression.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_file_compression.c; sourceTree = "<group>"; };
+		OBJ_143 /* zip_set_name.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_set_name.c; sourceTree = "<group>"; };
+		OBJ_144 /* zip_source_accept_empty.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_accept_empty.c; sourceTree = "<group>"; };
+		OBJ_145 /* zip_source_begin_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_begin_write.c; sourceTree = "<group>"; };
+		OBJ_146 /* zip_source_begin_write_cloning.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_begin_write_cloning.c; sourceTree = "<group>"; };
+		OBJ_147 /* zip_source_buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_buffer.c; sourceTree = "<group>"; };
+		OBJ_148 /* zip_source_call.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_call.c; sourceTree = "<group>"; };
+		OBJ_149 /* zip_source_close.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_close.c; sourceTree = "<group>"; };
+		OBJ_15 /* prd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prd.swift; sourceTree = "<group>"; };
+		OBJ_150 /* zip_source_commit_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_commit_write.c; sourceTree = "<group>"; };
+		OBJ_151 /* zip_source_compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_compress.c; sourceTree = "<group>"; };
+		OBJ_152 /* zip_source_crc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_crc.c; sourceTree = "<group>"; };
+		OBJ_153 /* zip_source_error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_error.c; sourceTree = "<group>"; };
+		OBJ_154 /* zip_source_file_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_file_common.c; sourceTree = "<group>"; };
+		OBJ_155 /* zip_source_file_stdio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_file_stdio.c; sourceTree = "<group>"; };
+		OBJ_156 /* zip_source_file_stdio_named.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_file_stdio_named.c; sourceTree = "<group>"; };
+		OBJ_157 /* zip_source_free.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_free.c; sourceTree = "<group>"; };
+		OBJ_158 /* zip_source_function.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_function.c; sourceTree = "<group>"; };
+		OBJ_159 /* zip_source_get_file_attributes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_get_file_attributes.c; sourceTree = "<group>"; };
+		OBJ_16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_160 /* zip_source_is_deleted.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_is_deleted.c; sourceTree = "<group>"; };
+		OBJ_161 /* zip_source_layered.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_layered.c; sourceTree = "<group>"; };
+		OBJ_162 /* zip_source_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_open.c; sourceTree = "<group>"; };
+		OBJ_163 /* zip_source_pkware_decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_pkware_decode.c; sourceTree = "<group>"; };
+		OBJ_164 /* zip_source_pkware_encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_pkware_encode.c; sourceTree = "<group>"; };
+		OBJ_165 /* zip_source_read.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_read.c; sourceTree = "<group>"; };
+		OBJ_166 /* zip_source_remove.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_remove.c; sourceTree = "<group>"; };
+		OBJ_167 /* zip_source_rollback_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_rollback_write.c; sourceTree = "<group>"; };
+		OBJ_168 /* zip_source_seek.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_seek.c; sourceTree = "<group>"; };
+		OBJ_169 /* zip_source_seek_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_seek_write.c; sourceTree = "<group>"; };
+		OBJ_17 /* types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = types.swift; sourceTree = "<group>"; };
+		OBJ_170 /* zip_source_stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_stat.c; sourceTree = "<group>"; };
+		OBJ_171 /* zip_source_supports.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_supports.c; sourceTree = "<group>"; };
+		OBJ_172 /* zip_source_tell.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_tell.c; sourceTree = "<group>"; };
+		OBJ_173 /* zip_source_tell_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_tell_write.c; sourceTree = "<group>"; };
+		OBJ_174 /* zip_source_window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_window.c; sourceTree = "<group>"; };
+		OBJ_175 /* zip_source_winzip_aes_decode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_winzip_aes_decode.c; sourceTree = "<group>"; };
+		OBJ_176 /* zip_source_winzip_aes_encode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_winzip_aes_encode.c; sourceTree = "<group>"; };
+		OBJ_177 /* zip_source_write.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_write.c; sourceTree = "<group>"; };
+		OBJ_178 /* zip_source_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_zip.c; sourceTree = "<group>"; };
+		OBJ_179 /* zip_source_zip_new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_source_zip_new.c; sourceTree = "<group>"; };
+		OBJ_180 /* zip_stat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_stat.c; sourceTree = "<group>"; };
+		OBJ_181 /* zip_stat_index.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_stat_index.c; sourceTree = "<group>"; };
+		OBJ_182 /* zip_stat_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_stat_init.c; sourceTree = "<group>"; };
+		OBJ_183 /* zip_strerror.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_strerror.c; sourceTree = "<group>"; };
+		OBJ_184 /* zip_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_string.c; sourceTree = "<group>"; };
+		OBJ_185 /* zip_unchange.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_unchange.c; sourceTree = "<group>"; };
+		OBJ_186 /* zip_unchange_all.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_unchange_all.c; sourceTree = "<group>"; };
+		OBJ_187 /* zip_unchange_archive.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_unchange_archive.c; sourceTree = "<group>"; };
+		OBJ_188 /* zip_unchange_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_unchange_data.c; sourceTree = "<group>"; };
+		OBJ_189 /* zip_utf-8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "zip_utf-8.c"; sourceTree = "<group>"; };
+		OBJ_190 /* zip_winzip_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_winzip_aes.c; sourceTree = "<group>"; };
+		OBJ_192 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		OBJ_193 /* zipconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zipconf.h; sourceTree = "<group>"; };
+		OBJ_194 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/jafffy/workspace/InverseRendering/VirtualObjectInsertion-Swift/.build/checkouts/SwiftZip/Package.swift"; sourceTree = "<group>"; };
+		OBJ_20 /* VirtualObjectInsertion_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectInsertion_SwiftTests.swift; sourceTree = "<group>"; };
+		OBJ_201 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_24 /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Npy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Npy.swift; sourceTree = "<group>"; };
+		OBJ_26 /* NpyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpyHeader.swift; sourceTree = "<group>"; };
+		OBJ_27 /* NpyLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpyLoader.swift; sourceTree = "<group>"; };
+		OBJ_28 /* NpySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpySaver.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Npz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Npz.swift; sourceTree = "<group>"; };
+		OBJ_30 /* NpzLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpzLoader.swift; sourceTree = "<group>"; };
+		OBJ_31 /* NpzSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpzSaver.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/jafffy/workspace/InverseRendering/VirtualObjectInsertion-Swift/.build/checkouts/swift-npy/Package.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* ZipErrorContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipErrorContext.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ZipOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipOptional.swift; sourceTree = "<group>"; };
+		OBJ_38 /* ZipUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipUtils.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ZipArchive+AddFileFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+AddFileFlags.swift"; sourceTree = "<group>"; };
+		OBJ_40 /* ZipArchive+EntryCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+EntryCollection.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* ZipArchive+FDOpenFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+FDOpenFlags.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* ZipArchive+LocateFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+LocateFlags.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* ZipArchive+OpenFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+OpenFlags.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* ZipArchive+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipArchive+Version.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* ZipArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipArchive.swift; sourceTree = "<group>"; };
+		OBJ_46 /* ZipEntry+ExternalAttributes+OperatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipEntry+ExternalAttributes+OperatingSystem.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* ZipEntry+ExternalAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipEntry+ExternalAttributes.swift"; sourceTree = "<group>"; };
+		OBJ_48 /* ZipEntry+ExtraFieldFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipEntry+ExtraFieldFlags.swift"; sourceTree = "<group>"; };
+		OBJ_49 /* ZipEntry+OpenFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipEntry+OpenFlags.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* ZipEntry+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipEntry+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_51 /* ZipEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipEntry.swift; sourceTree = "<group>"; };
+		OBJ_52 /* ZipEntryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipEntryReader.swift; sourceTree = "<group>"; };
+		OBJ_53 /* ZipError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipError.swift; sourceTree = "<group>"; };
+		OBJ_54 /* ZipMutableArchive+MutableEntryCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipMutableArchive+MutableEntryCollection.swift"; sourceTree = "<group>"; };
+		OBJ_55 /* ZipMutableArchive+MutableOpenFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipMutableArchive+MutableOpenFlags.swift"; sourceTree = "<group>"; };
+		OBJ_56 /* ZipMutableArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipMutableArchive.swift; sourceTree = "<group>"; };
+		OBJ_57 /* ZipMutableEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipMutableEntry.swift; sourceTree = "<group>"; };
+		OBJ_58 /* ZipSource+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipSource+Data.swift"; sourceTree = "<group>"; };
+		OBJ_59 /* ZipSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipSource.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* ZipSourceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipSourceAdapter.swift; sourceTree = "<group>"; };
+		OBJ_61 /* ZipSourceAdapterProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipSourceAdapterProxy.swift; sourceTree = "<group>"; };
+		OBJ_62 /* ZipStat+CompressionFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipStat+CompressionFlags.swift"; sourceTree = "<group>"; };
+		OBJ_63 /* ZipStat+CompressionMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipStat+CompressionMethod.swift"; sourceTree = "<group>"; };
+		OBJ_64 /* ZipStat+EncryptionMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipStat+EncryptionMethod.swift"; sourceTree = "<group>"; };
+		OBJ_65 /* ZipStat+ValidFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZipStat+ValidFields.swift"; sourceTree = "<group>"; };
+		OBJ_66 /* ZipStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipStat.swift; sourceTree = "<group>"; };
+		OBJ_67 /* ZipStringDecodingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipStringDecodingStrategy.swift; sourceTree = "<group>"; };
+		OBJ_68 /* ZipWhence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipWhence.swift; sourceTree = "<group>"; };
+		OBJ_73 /* zip_err_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_err_str.c; sourceTree = "<group>"; };
+		OBJ_75 /* zip_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_add.c; sourceTree = "<group>"; };
+		OBJ_76 /* zip_add_dir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_add_dir.c; sourceTree = "<group>"; };
+		OBJ_77 /* zip_add_entry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_add_entry.c; sourceTree = "<group>"; };
+		OBJ_78 /* zip_algorithm_bzip2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_algorithm_bzip2.c; sourceTree = "<group>"; };
+		OBJ_79 /* zip_algorithm_deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_algorithm_deflate.c; sourceTree = "<group>"; };
+		OBJ_80 /* zip_buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_buffer.c; sourceTree = "<group>"; };
+		OBJ_81 /* zip_close.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_close.c; sourceTree = "<group>"; };
+		OBJ_82 /* zip_crypto_commoncrypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_crypto_commoncrypto.c; sourceTree = "<group>"; };
+		OBJ_83 /* zip_delete.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_delete.c; sourceTree = "<group>"; };
+		OBJ_84 /* zip_dir_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_dir_add.c; sourceTree = "<group>"; };
+		OBJ_85 /* zip_dirent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_dirent.c; sourceTree = "<group>"; };
+		OBJ_86 /* zip_discard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_discard.c; sourceTree = "<group>"; };
+		OBJ_87 /* zip_entry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_entry.c; sourceTree = "<group>"; };
+		OBJ_88 /* zip_error.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error.c; sourceTree = "<group>"; };
+		OBJ_89 /* zip_error_clear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error_clear.c; sourceTree = "<group>"; };
+		OBJ_9 /* InverseRenderingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverseRenderingResult.swift; sourceTree = "<group>"; };
+		OBJ_90 /* zip_error_get.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error_get.c; sourceTree = "<group>"; };
+		OBJ_91 /* zip_error_get_sys_type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error_get_sys_type.c; sourceTree = "<group>"; };
+		OBJ_92 /* zip_error_strerror.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error_strerror.c; sourceTree = "<group>"; };
+		OBJ_93 /* zip_error_to_str.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_error_to_str.c; sourceTree = "<group>"; };
+		OBJ_94 /* zip_extra_field.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_extra_field.c; sourceTree = "<group>"; };
+		OBJ_95 /* zip_extra_field_api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_extra_field_api.c; sourceTree = "<group>"; };
+		OBJ_96 /* zip_fclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fclose.c; sourceTree = "<group>"; };
+		OBJ_97 /* zip_fdopen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_fdopen.c; sourceTree = "<group>"; };
+		OBJ_98 /* zip_file_add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_add.c; sourceTree = "<group>"; };
+		OBJ_99 /* zip_file_error_clear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip_file_error_clear.c; sourceTree = "<group>"; };
+		"swift-npy::SwiftNpy::Product" /* SwiftNpy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftNpy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swiftzip::SwiftZip::Product" /* SwiftZip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftZip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"swiftzip::zip::Product" /* zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product" /* VirtualObjectInsertion-Swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = "VirtualObjectInsertion-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product" /* VirtualObjectInsertion_SwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = VirtualObjectInsertion_SwiftTests.xctest; path = "VirtualObjectInsertion-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_216 /* SwiftZip.framework in Frameworks */,
+				OBJ_217 /* zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_266 /* zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_288 /* SwiftNpy.framework in Frameworks */,
+				OBJ_289 /* SwiftZip.framework in Frameworks */,
+				OBJ_290 /* zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_312 /* SwiftNpy.framework in Frameworks */,
+				OBJ_313 /* SwiftZip.framework in Frameworks */,
+				OBJ_314 /* zip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_12 /* RT */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* lights.swift */,
+				OBJ_14 /* material.swift */,
+				OBJ_15 /* prd.swift */,
+			);
+			path = RT;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* VirtualObjectInsertion-SwiftTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* VirtualObjectInsertion-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* VirtualObjectInsertion_SwiftTests.swift */,
+			);
+			name = "VirtualObjectInsertion-SwiftTests";
+			path = "Tests/VirtualObjectInsertion-SwiftTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_191 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_192 /* zip.h */,
+				OBJ_193 /* zipconf.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"swift-npy::SwiftNpy::Product" /* SwiftNpy.framework */,
+				"swiftzip::SwiftZip::Product" /* SwiftZip.framework */,
+				"virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product" /* VirtualObjectInsertion-Swift */,
+				"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product" /* VirtualObjectInsertion_SwiftTests.xctest */,
+				"swiftzip::zip::Product" /* zip.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_21 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* SwiftNpy */,
+				OBJ_33 /* SwiftZip 0.0.5 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* SwiftNpy */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* SwiftNpy */,
+				OBJ_32 /* Package.swift */,
+			);
+			name = SwiftNpy;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* SwiftNpy */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* DataType.swift */,
+				OBJ_25 /* Npy.swift */,
+				OBJ_26 /* NpyHeader.swift */,
+				OBJ_27 /* NpyLoader.swift */,
+				OBJ_28 /* NpySaver.swift */,
+				OBJ_29 /* Npz.swift */,
+				OBJ_30 /* NpzLoader.swift */,
+				OBJ_31 /* NpzSaver.swift */,
+			);
+			name = SwiftNpy;
+			path = ".build/checkouts/swift-npy/Sources/SwiftNpy";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* SwiftZip 0.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* SwiftZip */,
+				OBJ_69 /* SwiftZipUtils */,
+				OBJ_70 /* zip */,
+				OBJ_194 /* Package.swift */,
+			);
+			name = "SwiftZip 0.0.5";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* SwiftZip */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* Utils */,
+				OBJ_39 /* ZipArchive+AddFileFlags.swift */,
+				OBJ_40 /* ZipArchive+EntryCollection.swift */,
+				OBJ_41 /* ZipArchive+FDOpenFlags.swift */,
+				OBJ_42 /* ZipArchive+LocateFlags.swift */,
+				OBJ_43 /* ZipArchive+OpenFlags.swift */,
+				OBJ_44 /* ZipArchive+Version.swift */,
+				OBJ_45 /* ZipArchive.swift */,
+				OBJ_46 /* ZipEntry+ExternalAttributes+OperatingSystem.swift */,
+				OBJ_47 /* ZipEntry+ExternalAttributes.swift */,
+				OBJ_48 /* ZipEntry+ExtraFieldFlags.swift */,
+				OBJ_49 /* ZipEntry+OpenFlags.swift */,
+				OBJ_50 /* ZipEntry+Utils.swift */,
+				OBJ_51 /* ZipEntry.swift */,
+				OBJ_52 /* ZipEntryReader.swift */,
+				OBJ_53 /* ZipError.swift */,
+				OBJ_54 /* ZipMutableArchive+MutableEntryCollection.swift */,
+				OBJ_55 /* ZipMutableArchive+MutableOpenFlags.swift */,
+				OBJ_56 /* ZipMutableArchive.swift */,
+				OBJ_57 /* ZipMutableEntry.swift */,
+				OBJ_58 /* ZipSource+Data.swift */,
+				OBJ_59 /* ZipSource.swift */,
+				OBJ_60 /* ZipSourceAdapter.swift */,
+				OBJ_61 /* ZipSourceAdapterProxy.swift */,
+				OBJ_62 /* ZipStat+CompressionFlags.swift */,
+				OBJ_63 /* ZipStat+CompressionMethod.swift */,
+				OBJ_64 /* ZipStat+EncryptionMethod.swift */,
+				OBJ_65 /* ZipStat+ValidFields.swift */,
+				OBJ_66 /* ZipStat.swift */,
+				OBJ_67 /* ZipStringDecodingStrategy.swift */,
+				OBJ_68 /* ZipWhence.swift */,
+			);
+			name = SwiftZip;
+			path = .build/checkouts/SwiftZip/Sources/SwiftZip;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_35 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* ZipErrorContext.swift */,
+				OBJ_37 /* ZipOptional.swift */,
+				OBJ_38 /* ZipUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_18 /* Tests */,
+				OBJ_21 /* Dependencies */,
+				OBJ_195 /* Products */,
+				OBJ_201 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_69 /* SwiftZipUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftZipUtils;
+			path = .build/checkouts/SwiftZip/Sources/SwiftZipUtils;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* VirtualObjectInsertion-Swift */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_70 /* zip */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_71 /* libzip */,
+				OBJ_191 /* include */,
+			);
+			name = zip;
+			path = .build/checkouts/SwiftZip/Sources/zip;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_71 /* libzip */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_72 /* developer-xcode */,
+				OBJ_74 /* lib */,
+			);
+			path = libzip;
+			sourceTree = "<group>";
+		};
+		OBJ_72 /* developer-xcode */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_73 /* zip_err_str.c */,
+			);
+			path = "developer-xcode";
+			sourceTree = "<group>";
+		};
+		OBJ_74 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_75 /* zip_add.c */,
+				OBJ_76 /* zip_add_dir.c */,
+				OBJ_77 /* zip_add_entry.c */,
+				OBJ_78 /* zip_algorithm_bzip2.c */,
+				OBJ_79 /* zip_algorithm_deflate.c */,
+				OBJ_80 /* zip_buffer.c */,
+				OBJ_81 /* zip_close.c */,
+				OBJ_82 /* zip_crypto_commoncrypto.c */,
+				OBJ_83 /* zip_delete.c */,
+				OBJ_84 /* zip_dir_add.c */,
+				OBJ_85 /* zip_dirent.c */,
+				OBJ_86 /* zip_discard.c */,
+				OBJ_87 /* zip_entry.c */,
+				OBJ_88 /* zip_error.c */,
+				OBJ_89 /* zip_error_clear.c */,
+				OBJ_90 /* zip_error_get.c */,
+				OBJ_91 /* zip_error_get_sys_type.c */,
+				OBJ_92 /* zip_error_strerror.c */,
+				OBJ_93 /* zip_error_to_str.c */,
+				OBJ_94 /* zip_extra_field.c */,
+				OBJ_95 /* zip_extra_field_api.c */,
+				OBJ_96 /* zip_fclose.c */,
+				OBJ_97 /* zip_fdopen.c */,
+				OBJ_98 /* zip_file_add.c */,
+				OBJ_99 /* zip_file_error_clear.c */,
+				OBJ_100 /* zip_file_error_get.c */,
+				OBJ_101 /* zip_file_get_comment.c */,
+				OBJ_102 /* zip_file_get_external_attributes.c */,
+				OBJ_103 /* zip_file_get_offset.c */,
+				OBJ_104 /* zip_file_rename.c */,
+				OBJ_105 /* zip_file_replace.c */,
+				OBJ_106 /* zip_file_set_comment.c */,
+				OBJ_107 /* zip_file_set_encryption.c */,
+				OBJ_108 /* zip_file_set_external_attributes.c */,
+				OBJ_109 /* zip_file_set_mtime.c */,
+				OBJ_110 /* zip_file_strerror.c */,
+				OBJ_111 /* zip_fopen.c */,
+				OBJ_112 /* zip_fopen_encrypted.c */,
+				OBJ_113 /* zip_fopen_index.c */,
+				OBJ_114 /* zip_fopen_index_encrypted.c */,
+				OBJ_115 /* zip_fread.c */,
+				OBJ_116 /* zip_fseek.c */,
+				OBJ_117 /* zip_ftell.c */,
+				OBJ_118 /* zip_get_archive_comment.c */,
+				OBJ_119 /* zip_get_archive_flag.c */,
+				OBJ_120 /* zip_get_encryption_implementation.c */,
+				OBJ_121 /* zip_get_file_comment.c */,
+				OBJ_122 /* zip_get_name.c */,
+				OBJ_123 /* zip_get_num_entries.c */,
+				OBJ_124 /* zip_get_num_files.c */,
+				OBJ_125 /* zip_hash.c */,
+				OBJ_126 /* zip_io_util.c */,
+				OBJ_127 /* zip_libzip_version.c */,
+				OBJ_128 /* zip_memdup.c */,
+				OBJ_129 /* zip_mkstempm.c */,
+				OBJ_130 /* zip_name_locate.c */,
+				OBJ_131 /* zip_new.c */,
+				OBJ_132 /* zip_open.c */,
+				OBJ_133 /* zip_pkware.c */,
+				OBJ_134 /* zip_progress.c */,
+				OBJ_135 /* zip_random_unix.c */,
+				OBJ_136 /* zip_rename.c */,
+				OBJ_137 /* zip_replace.c */,
+				OBJ_138 /* zip_set_archive_comment.c */,
+				OBJ_139 /* zip_set_archive_flag.c */,
+				OBJ_140 /* zip_set_default_password.c */,
+				OBJ_141 /* zip_set_file_comment.c */,
+				OBJ_142 /* zip_set_file_compression.c */,
+				OBJ_143 /* zip_set_name.c */,
+				OBJ_144 /* zip_source_accept_empty.c */,
+				OBJ_145 /* zip_source_begin_write.c */,
+				OBJ_146 /* zip_source_begin_write_cloning.c */,
+				OBJ_147 /* zip_source_buffer.c */,
+				OBJ_148 /* zip_source_call.c */,
+				OBJ_149 /* zip_source_close.c */,
+				OBJ_150 /* zip_source_commit_write.c */,
+				OBJ_151 /* zip_source_compress.c */,
+				OBJ_152 /* zip_source_crc.c */,
+				OBJ_153 /* zip_source_error.c */,
+				OBJ_154 /* zip_source_file_common.c */,
+				OBJ_155 /* zip_source_file_stdio.c */,
+				OBJ_156 /* zip_source_file_stdio_named.c */,
+				OBJ_157 /* zip_source_free.c */,
+				OBJ_158 /* zip_source_function.c */,
+				OBJ_159 /* zip_source_get_file_attributes.c */,
+				OBJ_160 /* zip_source_is_deleted.c */,
+				OBJ_161 /* zip_source_layered.c */,
+				OBJ_162 /* zip_source_open.c */,
+				OBJ_163 /* zip_source_pkware_decode.c */,
+				OBJ_164 /* zip_source_pkware_encode.c */,
+				OBJ_165 /* zip_source_read.c */,
+				OBJ_166 /* zip_source_remove.c */,
+				OBJ_167 /* zip_source_rollback_write.c */,
+				OBJ_168 /* zip_source_seek.c */,
+				OBJ_169 /* zip_source_seek_write.c */,
+				OBJ_170 /* zip_source_stat.c */,
+				OBJ_171 /* zip_source_supports.c */,
+				OBJ_172 /* zip_source_tell.c */,
+				OBJ_173 /* zip_source_tell_write.c */,
+				OBJ_174 /* zip_source_window.c */,
+				OBJ_175 /* zip_source_winzip_aes_decode.c */,
+				OBJ_176 /* zip_source_winzip_aes_encode.c */,
+				OBJ_177 /* zip_source_write.c */,
+				OBJ_178 /* zip_source_zip.c */,
+				OBJ_179 /* zip_source_zip_new.c */,
+				OBJ_180 /* zip_stat.c */,
+				OBJ_181 /* zip_stat_index.c */,
+				OBJ_182 /* zip_stat_init.c */,
+				OBJ_183 /* zip_strerror.c */,
+				OBJ_184 /* zip_string.c */,
+				OBJ_185 /* zip_unchange.c */,
+				OBJ_186 /* zip_unchange_all.c */,
+				OBJ_187 /* zip_unchange_archive.c */,
+				OBJ_188 /* zip_unchange_data.c */,
+				OBJ_189 /* zip_utf-8.c */,
+				OBJ_190 /* zip_winzip_aes.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* VirtualObjectInsertion-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* RT */,
+				FF8D793B29BA0E660014CFDD /* Shaders */,
+				OBJ_9 /* InverseRenderingResult.swift */,
+				OBJ_10 /* MathUtil.swift */,
+				OBJ_11 /* NpyUtil.swift */,
+				OBJ_16 /* main.swift */,
+				OBJ_17 /* types.swift */,
+			);
+			name = "VirtualObjectInsertion-Swift";
+			path = "Sources/VirtualObjectInsertion-Swift";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		OBJ_440 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_441 /* zip.h in Headers */,
+				OBJ_442 /* zipconf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		"swift-npy::SwiftNpy" /* SwiftNpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_203 /* Build configuration list for PBXNativeTarget "SwiftNpy" */;
+			buildPhases = (
+				OBJ_206 /* Sources */,
+				OBJ_215 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_218 /* PBXTargetDependency */,
+				OBJ_220 /* PBXTargetDependency */,
+			);
+			name = SwiftNpy;
+			productName = SwiftNpy;
+			productReference = "swift-npy::SwiftNpy::Product" /* SwiftNpy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"swift-npy::SwiftPMPackageDescription" /* SwiftNpyPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_223 /* Build configuration list for PBXNativeTarget "SwiftNpyPackageDescription" */;
+			buildPhases = (
+				OBJ_226 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNpyPackageDescription;
+			productName = SwiftNpyPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"swiftzip::SwiftPMPackageDescription" /* SwiftZipPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_269 /* Build configuration list for PBXNativeTarget "SwiftZipPackageDescription" */;
+			buildPhases = (
+				OBJ_272 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftZipPackageDescription;
+			productName = SwiftZipPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"swiftzip::SwiftZip" /* SwiftZip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_228 /* Build configuration list for PBXNativeTarget "SwiftZip" */;
+			buildPhases = (
+				OBJ_231 /* Sources */,
+				OBJ_265 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_267 /* PBXTargetDependency */,
+			);
+			name = SwiftZip;
+			productName = SwiftZip;
+			productReference = "swiftzip::SwiftZip::Product" /* SwiftZip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"swiftzip::zip" /* zip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_319 /* Build configuration list for PBXNativeTarget "zip" */;
+			buildPhases = (
+				OBJ_322 /* Sources */,
+				OBJ_440 /* Headers */,
+				OBJ_443 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zip;
+			productName = zip;
+			productReference = "swiftzip::zip::Product" /* zip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"virtualobjectinsertion-swift::SwiftPMPackageDescription" /* VirtualObjectInsertion-SwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_295 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-SwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_298 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VirtualObjectInsertion-SwiftPackageDescription";
+			productName = "VirtualObjectInsertion-SwiftPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"virtualobjectinsertion-swift::VirtualObjectInsertion-Swift" /* VirtualObjectInsertion-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_275 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-Swift" */;
+			buildPhases = (
+				OBJ_278 /* Sources */,
+				OBJ_287 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_291 /* PBXTargetDependency */,
+				OBJ_292 /* PBXTargetDependency */,
+				OBJ_293 /* PBXTargetDependency */,
+			);
+			name = "VirtualObjectInsertion-Swift";
+			productName = VirtualObjectInsertion_Swift;
+			productReference = "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift::Product" /* VirtualObjectInsertion-Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+		"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests" /* VirtualObjectInsertion-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_306 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-SwiftTests" */;
+			buildPhases = (
+				OBJ_309 /* Sources */,
+				OBJ_311 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_315 /* PBXTargetDependency */,
+				OBJ_316 /* PBXTargetDependency */,
+				OBJ_317 /* PBXTargetDependency */,
+				OBJ_318 /* PBXTargetDependency */,
+			);
+			name = "VirtualObjectInsertion-SwiftTests";
+			productName = VirtualObjectInsertion_SwiftTests;
+			productReference = "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests::Product" /* VirtualObjectInsertion_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "VirtualObjectInsertion-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"swift-npy::SwiftNpy" /* SwiftNpy */,
+				"swift-npy::SwiftPMPackageDescription" /* SwiftNpyPackageDescription */,
+				"swiftzip::SwiftZip" /* SwiftZip */,
+				"swiftzip::SwiftPMPackageDescription" /* SwiftZipPackageDescription */,
+				"virtualobjectinsertion-swift::VirtualObjectInsertion-Swift" /* VirtualObjectInsertion-Swift */,
+				"virtualobjectinsertion-swift::SwiftPMPackageDescription" /* VirtualObjectInsertion-SwiftPackageDescription */,
+				"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftPackageTests::ProductTarget" /* VirtualObjectInsertion-SwiftPackageTests */,
+				"virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests" /* VirtualObjectInsertion-SwiftTests */,
+				"swiftzip::zip" /* zip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_207 /* DataType.swift in Sources */,
+				OBJ_208 /* Npy.swift in Sources */,
+				OBJ_209 /* NpyHeader.swift in Sources */,
+				OBJ_210 /* NpyLoader.swift in Sources */,
+				OBJ_211 /* NpySaver.swift in Sources */,
+				OBJ_212 /* Npz.swift in Sources */,
+				OBJ_213 /* NpzLoader.swift in Sources */,
+				OBJ_214 /* NpzSaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_227 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_232 /* ZipErrorContext.swift in Sources */,
+				OBJ_233 /* ZipOptional.swift in Sources */,
+				OBJ_234 /* ZipUtils.swift in Sources */,
+				OBJ_235 /* ZipArchive+AddFileFlags.swift in Sources */,
+				OBJ_236 /* ZipArchive+EntryCollection.swift in Sources */,
+				OBJ_237 /* ZipArchive+FDOpenFlags.swift in Sources */,
+				OBJ_238 /* ZipArchive+LocateFlags.swift in Sources */,
+				OBJ_239 /* ZipArchive+OpenFlags.swift in Sources */,
+				OBJ_240 /* ZipArchive+Version.swift in Sources */,
+				OBJ_241 /* ZipArchive.swift in Sources */,
+				OBJ_242 /* ZipEntry+ExternalAttributes+OperatingSystem.swift in Sources */,
+				OBJ_243 /* ZipEntry+ExternalAttributes.swift in Sources */,
+				OBJ_244 /* ZipEntry+ExtraFieldFlags.swift in Sources */,
+				OBJ_245 /* ZipEntry+OpenFlags.swift in Sources */,
+				OBJ_246 /* ZipEntry+Utils.swift in Sources */,
+				OBJ_247 /* ZipEntry.swift in Sources */,
+				OBJ_248 /* ZipEntryReader.swift in Sources */,
+				OBJ_249 /* ZipError.swift in Sources */,
+				OBJ_250 /* ZipMutableArchive+MutableEntryCollection.swift in Sources */,
+				OBJ_251 /* ZipMutableArchive+MutableOpenFlags.swift in Sources */,
+				OBJ_252 /* ZipMutableArchive.swift in Sources */,
+				OBJ_253 /* ZipMutableEntry.swift in Sources */,
+				OBJ_254 /* ZipSource+Data.swift in Sources */,
+				OBJ_255 /* ZipSource.swift in Sources */,
+				OBJ_256 /* ZipSourceAdapter.swift in Sources */,
+				OBJ_257 /* ZipSourceAdapterProxy.swift in Sources */,
+				OBJ_258 /* ZipStat+CompressionFlags.swift in Sources */,
+				OBJ_259 /* ZipStat+CompressionMethod.swift in Sources */,
+				OBJ_260 /* ZipStat+EncryptionMethod.swift in Sources */,
+				OBJ_261 /* ZipStat+ValidFields.swift in Sources */,
+				OBJ_262 /* ZipStat.swift in Sources */,
+				OBJ_263 /* ZipStringDecodingStrategy.swift in Sources */,
+				OBJ_264 /* ZipWhence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_273 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_279 /* InverseRenderingResult.swift in Sources */,
+				OBJ_280 /* MathUtil.swift in Sources */,
+				OBJ_281 /* NpyUtil.swift in Sources */,
+				OBJ_282 /* lights.swift in Sources */,
+				OBJ_283 /* material.swift in Sources */,
+				OBJ_284 /* prd.swift in Sources */,
+				OBJ_285 /* main.swift in Sources */,
+				OBJ_286 /* types.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_299 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_310 /* VirtualObjectInsertion_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_323 /* zip_err_str.c in Sources */,
+				OBJ_324 /* zip_add.c in Sources */,
+				OBJ_325 /* zip_add_dir.c in Sources */,
+				OBJ_326 /* zip_add_entry.c in Sources */,
+				OBJ_327 /* zip_algorithm_bzip2.c in Sources */,
+				OBJ_328 /* zip_algorithm_deflate.c in Sources */,
+				OBJ_329 /* zip_buffer.c in Sources */,
+				OBJ_330 /* zip_close.c in Sources */,
+				OBJ_331 /* zip_crypto_commoncrypto.c in Sources */,
+				OBJ_332 /* zip_delete.c in Sources */,
+				OBJ_333 /* zip_dir_add.c in Sources */,
+				OBJ_334 /* zip_dirent.c in Sources */,
+				OBJ_335 /* zip_discard.c in Sources */,
+				OBJ_336 /* zip_entry.c in Sources */,
+				OBJ_337 /* zip_error.c in Sources */,
+				OBJ_338 /* zip_error_clear.c in Sources */,
+				OBJ_339 /* zip_error_get.c in Sources */,
+				OBJ_340 /* zip_error_get_sys_type.c in Sources */,
+				OBJ_341 /* zip_error_strerror.c in Sources */,
+				OBJ_342 /* zip_error_to_str.c in Sources */,
+				OBJ_343 /* zip_extra_field.c in Sources */,
+				OBJ_344 /* zip_extra_field_api.c in Sources */,
+				OBJ_345 /* zip_fclose.c in Sources */,
+				OBJ_346 /* zip_fdopen.c in Sources */,
+				OBJ_347 /* zip_file_add.c in Sources */,
+				OBJ_348 /* zip_file_error_clear.c in Sources */,
+				OBJ_349 /* zip_file_error_get.c in Sources */,
+				OBJ_350 /* zip_file_get_comment.c in Sources */,
+				OBJ_351 /* zip_file_get_external_attributes.c in Sources */,
+				OBJ_352 /* zip_file_get_offset.c in Sources */,
+				OBJ_353 /* zip_file_rename.c in Sources */,
+				OBJ_354 /* zip_file_replace.c in Sources */,
+				OBJ_355 /* zip_file_set_comment.c in Sources */,
+				OBJ_356 /* zip_file_set_encryption.c in Sources */,
+				OBJ_357 /* zip_file_set_external_attributes.c in Sources */,
+				OBJ_358 /* zip_file_set_mtime.c in Sources */,
+				OBJ_359 /* zip_file_strerror.c in Sources */,
+				OBJ_360 /* zip_fopen.c in Sources */,
+				OBJ_361 /* zip_fopen_encrypted.c in Sources */,
+				OBJ_362 /* zip_fopen_index.c in Sources */,
+				OBJ_363 /* zip_fopen_index_encrypted.c in Sources */,
+				OBJ_364 /* zip_fread.c in Sources */,
+				OBJ_365 /* zip_fseek.c in Sources */,
+				OBJ_366 /* zip_ftell.c in Sources */,
+				OBJ_367 /* zip_get_archive_comment.c in Sources */,
+				OBJ_368 /* zip_get_archive_flag.c in Sources */,
+				OBJ_369 /* zip_get_encryption_implementation.c in Sources */,
+				OBJ_370 /* zip_get_file_comment.c in Sources */,
+				OBJ_371 /* zip_get_name.c in Sources */,
+				OBJ_372 /* zip_get_num_entries.c in Sources */,
+				OBJ_373 /* zip_get_num_files.c in Sources */,
+				OBJ_374 /* zip_hash.c in Sources */,
+				OBJ_375 /* zip_io_util.c in Sources */,
+				OBJ_376 /* zip_libzip_version.c in Sources */,
+				OBJ_377 /* zip_memdup.c in Sources */,
+				OBJ_378 /* zip_mkstempm.c in Sources */,
+				OBJ_379 /* zip_name_locate.c in Sources */,
+				OBJ_380 /* zip_new.c in Sources */,
+				OBJ_381 /* zip_open.c in Sources */,
+				OBJ_382 /* zip_pkware.c in Sources */,
+				OBJ_383 /* zip_progress.c in Sources */,
+				OBJ_384 /* zip_random_unix.c in Sources */,
+				OBJ_385 /* zip_rename.c in Sources */,
+				OBJ_386 /* zip_replace.c in Sources */,
+				OBJ_387 /* zip_set_archive_comment.c in Sources */,
+				OBJ_388 /* zip_set_archive_flag.c in Sources */,
+				OBJ_389 /* zip_set_default_password.c in Sources */,
+				OBJ_390 /* zip_set_file_comment.c in Sources */,
+				OBJ_391 /* zip_set_file_compression.c in Sources */,
+				OBJ_392 /* zip_set_name.c in Sources */,
+				OBJ_393 /* zip_source_accept_empty.c in Sources */,
+				OBJ_394 /* zip_source_begin_write.c in Sources */,
+				OBJ_395 /* zip_source_begin_write_cloning.c in Sources */,
+				OBJ_396 /* zip_source_buffer.c in Sources */,
+				OBJ_397 /* zip_source_call.c in Sources */,
+				OBJ_398 /* zip_source_close.c in Sources */,
+				OBJ_399 /* zip_source_commit_write.c in Sources */,
+				OBJ_400 /* zip_source_compress.c in Sources */,
+				OBJ_401 /* zip_source_crc.c in Sources */,
+				OBJ_402 /* zip_source_error.c in Sources */,
+				OBJ_403 /* zip_source_file_common.c in Sources */,
+				OBJ_404 /* zip_source_file_stdio.c in Sources */,
+				OBJ_405 /* zip_source_file_stdio_named.c in Sources */,
+				OBJ_406 /* zip_source_free.c in Sources */,
+				OBJ_407 /* zip_source_function.c in Sources */,
+				OBJ_408 /* zip_source_get_file_attributes.c in Sources */,
+				OBJ_409 /* zip_source_is_deleted.c in Sources */,
+				OBJ_410 /* zip_source_layered.c in Sources */,
+				OBJ_411 /* zip_source_open.c in Sources */,
+				OBJ_412 /* zip_source_pkware_decode.c in Sources */,
+				OBJ_413 /* zip_source_pkware_encode.c in Sources */,
+				OBJ_414 /* zip_source_read.c in Sources */,
+				OBJ_415 /* zip_source_remove.c in Sources */,
+				OBJ_416 /* zip_source_rollback_write.c in Sources */,
+				OBJ_417 /* zip_source_seek.c in Sources */,
+				OBJ_418 /* zip_source_seek_write.c in Sources */,
+				OBJ_419 /* zip_source_stat.c in Sources */,
+				OBJ_420 /* zip_source_supports.c in Sources */,
+				OBJ_421 /* zip_source_tell.c in Sources */,
+				OBJ_422 /* zip_source_tell_write.c in Sources */,
+				OBJ_423 /* zip_source_window.c in Sources */,
+				OBJ_424 /* zip_source_winzip_aes_decode.c in Sources */,
+				OBJ_425 /* zip_source_winzip_aes_encode.c in Sources */,
+				OBJ_426 /* zip_source_write.c in Sources */,
+				OBJ_427 /* zip_source_zip.c in Sources */,
+				OBJ_428 /* zip_source_zip_new.c in Sources */,
+				OBJ_429 /* zip_stat.c in Sources */,
+				OBJ_430 /* zip_stat_index.c in Sources */,
+				OBJ_431 /* zip_stat_init.c in Sources */,
+				OBJ_432 /* zip_strerror.c in Sources */,
+				OBJ_433 /* zip_string.c in Sources */,
+				OBJ_434 /* zip_unchange.c in Sources */,
+				OBJ_435 /* zip_unchange_all.c in Sources */,
+				OBJ_436 /* zip_unchange_archive.c in Sources */,
+				OBJ_437 /* zip_unchange_data.c in Sources */,
+				OBJ_438 /* zip_utf-8.c in Sources */,
+				OBJ_439 /* zip_winzip_aes.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::SwiftZip" /* SwiftZip */;
+			targetProxy = FF8D793029BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::zip" /* zip */;
+			targetProxy = FF8D793229BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::zip" /* zip */;
+			targetProxy = FF8D793129BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-npy::SwiftNpy" /* SwiftNpy */;
+			targetProxy = FF8D792F29BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::SwiftZip" /* SwiftZip */;
+			targetProxy = FF8D793329BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::zip" /* zip */;
+			targetProxy = FF8D793429BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "virtualobjectinsertion-swift::VirtualObjectInsertion-SwiftTests" /* VirtualObjectInsertion-SwiftTests */;
+			targetProxy = FF8D793929BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "virtualobjectinsertion-swift::VirtualObjectInsertion-Swift" /* VirtualObjectInsertion-Swift */;
+			targetProxy = FF8D793529BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swift-npy::SwiftNpy" /* SwiftNpy */;
+			targetProxy = FF8D793629BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::SwiftZip" /* SwiftZip */;
+			targetProxy = FF8D793729BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+		OBJ_318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "swiftzip::zip" /* zip */;
+			targetProxy = FF8D793829BA0D7A0014CFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftNpy_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftNpy;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftNpy;
+			};
+			name = Debug;
+		};
+		OBJ_205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftNpy_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftNpy;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftNpy;
+			};
+			name = Release;
+		};
+		OBJ_224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 4.0.0";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 4.0.0";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftZip_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftZip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftZip;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/SwiftZip_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftZip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftZip;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_Swift_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "VirtualObjectInsertion-Swift";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_Swift_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "VirtualObjectInsertion-Swift";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -package-description-version 5.7.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_SwiftTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "VirtualObjectInsertion-SwiftTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/VirtualObjectInsertion_SwiftTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "VirtualObjectInsertion-SwiftTests";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+					libzip/lib,
+					"include-private",
+					"include-private/darwin",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/zip_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lbz2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = zip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = zip;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/SwiftZip/Sources/zip/include",
+					libzip/lib,
+					"include-private",
+					"include-private/darwin",
+				);
+				INFOPLIST_FILE = "VirtualObjectInsertion-Swift.xcodeproj/zip_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+					"-lbz2",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = zip;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				TARGET_NAME = zip;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "VirtualObjectInsertion-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_203 /* Build configuration list for PBXNativeTarget "SwiftNpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_204 /* Debug */,
+				OBJ_205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_223 /* Build configuration list for PBXNativeTarget "SwiftNpyPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_224 /* Debug */,
+				OBJ_225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_228 /* Build configuration list for PBXNativeTarget "SwiftZip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_229 /* Debug */,
+				OBJ_230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_269 /* Build configuration list for PBXNativeTarget "SwiftZipPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_270 /* Debug */,
+				OBJ_271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_275 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_276 /* Debug */,
+				OBJ_277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_295 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-SwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_296 /* Debug */,
+				OBJ_297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_301 /* Build configuration list for PBXAggregateTarget "VirtualObjectInsertion-SwiftPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_302 /* Debug */,
+				OBJ_303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_306 /* Build configuration list for PBXNativeTarget "VirtualObjectInsertion-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_307 /* Debug */,
+				OBJ_308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_319 /* Build configuration list for PBXNativeTarget "zip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_320 /* Debug */,
+				OBJ_321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }
